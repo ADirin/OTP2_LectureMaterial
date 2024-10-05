@@ -10,6 +10,7 @@ Internationalization is the process of designing software products that meet the
 
 > ![Top languages](/Images/world-languages-graphics.jpg)
 
+ -- `https://mettahu.wordpress.com/2013/10/08/your-native-language-dictates-your-habits-of-mind/`
 #### Benefits of Internationalization:
 
 - Increase accessibility
