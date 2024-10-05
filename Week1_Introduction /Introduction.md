@@ -1,6 +1,6 @@
 # 
 
-# Introduction to Software Intwenationalization, Localization, Software Analysis, and Related Concepts
+# Introduction to Software Internationalization, Localization, Software Analysis, and Related Concepts
 
 ### Internationalization
 
