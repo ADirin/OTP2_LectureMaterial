@@ -1,6 +1,18 @@
 # 
 
-# Introduction to Software Localization, Software Analysis, and Related Concepts
+# Introduction to Software Intwenationalization, Localization, Software Analysis, and Related Concepts
+
+### Internationalization
+
+Internationalization is the process of designing software products that meet the linguistic, cultural, and technical requirements of different countries and regions. 
+
+#### Benefits of Internationalization:
+
+- Increase accessibility
+- Improve user experience (saves time, cost, speaks the user's language)
+- Improve market penetration and hence revenue
+ 
+
 
 ## Software Localization
 
