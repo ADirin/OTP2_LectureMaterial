@@ -15,7 +15,7 @@ tags:
 
 **UI Localization** (User Interface Localization) refers to the process of adapting the user interface of a software application to suit different languages, regions, and cultural contexts. It is a crucial aspect of software development, especially for applications that target global audiences. Localization goes beyond simple translation and includes adjusting various elements of the UI to meet the cultural and regional preferences of users in different locations.
 
-> ![Localization](Images/Picture1.png)
+> ![Localization](/Images/Picture1.png)
 
 ## Key Aspects of UI Localization
 
