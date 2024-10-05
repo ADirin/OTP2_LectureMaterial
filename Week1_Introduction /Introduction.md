@@ -6,6 +6,10 @@
 
 Internationalization is the process of designing software products that meet the linguistic, cultural, and technical requirements of different countries and regions. 
 
+Figure 1 present the most of the top 25 world languages
+
+> ![Top languages](Images/world-languages-graphics.jpg)
+
 #### Benefits of Internationalization:
 
 - Increase accessibility
