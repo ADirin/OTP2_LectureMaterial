@@ -5,6 +5,40 @@
 - Same group with the same setup
 - We continue and extend trello with more product backlog with focus on the localization and non-functional testing
 - You have still the chance to change your team (Not recommended)
+
+---------------------------------------------------
+# Intorudction to OTP2:
+
+## The focus of this course is on:
+
+- Internationalization (Sprint 5)
+- Quality assurance (Sprint 6)
+- Documentation (Sprint 7)
+
+There are 4 sprints, each lasting for two weeks.
+
+All face to face are compulsory to particiapte. Furthermore, all team members must participate in the project development.
+
+### Criteria for Passing the Course:
+
+- Individual performance will be assessed as:
+
+  **P = 0.05 × HA + 0.25 × PA + 0.70 × E**
+
+  -- You pass the course through an exam (compulsory) **(50%)**,
+  -- A group-based project assignment (compulsory) **(40%)**,
+  -- Individual assignment (compulsory) **(10%)**
+
+### Additional evaluation:
+
+  -- Peer-review
+  -- Self Evaluation
+
+- Please note that in addition to the hours scheduled in the timetable, the project must also be progressed at other times.
+- A five-credit course requires approximately **12 work hours per week (about 100h)**.
+- Attendance during the contact hours is mandatory unless otherwise specified.
+
+
 ## Schdeul
 ### Group 1:
 
