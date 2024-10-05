@@ -1,4 +1,4 @@
----
+
 title: "Introduction to UI Localization"
 description: "Overview of the key aspects, processes, and tools for UI Localization in software development."
 tags: 
@@ -10,7 +10,6 @@ tags:
   - i18n
   - l10n
   - GitHub Documentation
----
 
 # Introduction to UI Localization
 
