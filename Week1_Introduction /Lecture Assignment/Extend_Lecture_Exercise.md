@@ -61,11 +61,12 @@ public class LocalizedGreetingTest {
 ### Run the Tests:
 
 - In IntelliJ, right-click on LocalizedGreetingTest and select Run 'LocalizedGreetingTest'.
-Confirm that all tests pass successfully.
+1. Confirm that all Unit tests are pass successfully.
+2. Create a JaCOCO report
 
 ## Submission
 1. Submit the github repor
-2. Submit the screenshot of the unit test
+2. Submit the screenshot of the JaCoCo result
 
 ## Notes
 Encoding: Make sure all .properties files use UTF-8 encoding to prevent character corruption in non-Latin languages.
