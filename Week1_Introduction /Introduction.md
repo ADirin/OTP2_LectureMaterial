@@ -94,10 +94,9 @@ Functional Testing: Verify that locale-specific data (dates, times, currencies) 
 
 2. Visual Content
 - Images and Graphics
-  
   -- Cultural Relevance: Modify images to reflect local culture, fashion, food, and other visual cues.
-  -- Icons and Symbols: Ensure icons have consistent meanings across cultures (e.g., a thumbs-up symbol may not be positive in all regions).
-  -- Avoid Sensitive Content: Avoid visuals that may be offensive or inappropriate in certain regions due to cultural, religious, or political sensitivities.
+ -- Icons and Symbols: Ensure icons have consistent meanings across cultures (e.g., a thumbs-up symbol may not be positive in all regions).
+ -- Avoid Sensitive Content: Avoid visuals that may be offensive or inappropriate in certain regions due to cultural, religious, or political sensitivities.
   
 - Videos and Multimedia
   
