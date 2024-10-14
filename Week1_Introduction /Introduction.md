@@ -286,6 +286,98 @@ Functional testing is a type of testing that ensures that the software operates 
 ### Non-Functional Testing
 Non-functional testing, on the other hand, examines aspects of the software that may not be directly related to specific functions or features. This includes performance testing, security testing, usability testing, and compatibility testing. Non-functional testing ensures that the software meets quality standards and provides a good user experience.
 
+
+
+## Simple Example 
+
+```css
+LocalizedGreetingApp
+├── src
+│   └── LocalizedGreeting.java
+└── resources
+    ├── MessagesBundle_en_US.properties
+    ├── MessagesBundle_fr_FR.properties
+    └── MessagesBundle_es_ES.properties
+
+
+```
+Step 1: Resource Bundle Files
+Create the following property files in the resources directory.
+
+`MessagesBundle_en_US.properties`
+```css
+greeting=Hello! Welcome to our application.
+
+```
+
+`MessagesBundle_fr_FR.properties`
+```css
+greeting=Bonjour! Bienvenue dans notre application.
+
+
+```
+
+
+`MessagesBundle_es_ES.properties`
+
+```css
+greeting=¡Hola! Bienvenido a nuestra aplicación.
+
+
+```
+
+Step 2: Write the Java Code
+Create a file called LocalizedGreeting.java in the src directory.
+
+```java
+import java.util.Locale;
+import java.util.ResourceBundle;
+import java.util.Scanner;
+
+public class LocalizedGreeting {
+
+    public static void main(String[] args) {
+        // Prompt user to select a language
+        System.out.println("Select a language: ");
+        System.out.println("1. English");
+        System.out.println("2. French");
+        System.out.println("3. Spanish");
+
+        Scanner scanner = new Scanner(System.in);
+        int choice = scanner.nextInt();
+
+        // Set the locale based on user's choice
+        Locale locale;
+        switch (choice) {
+            case 1:
+                locale = new Locale("en", "US");
+                break;
+            case 2:
+                locale = new Locale("fr", "FR");
+                break;
+            case 3:
+                locale = new Locale("es", "ES");
+                break;
+            default:
+                System.out.println("Invalid choice. Defaulting to English.");
+                locale = new Locale("en", "US");
+                break;
+        }
+
+        // Load the resource bundle for the selected locale
+        ResourceBundle messages = ResourceBundle.getBundle("resources.MessagesBundle", locale);
+
+        // Display the localized greeting message
+        System.out.println(messages.getString("greeting"));
+        
+        scanner.close();
+    }
+}
+
+
+
+```
+
 ## Database Documentation
 
 Database documentation is the practice of creating and maintaining records that describe the structure, relationships, constraints, and other aspects of a database. This documentation is crucial for developers, database administrators, and other stakeholders to understand the database design and ensure its correct and efficient use. Well-documented databases are easier to maintain, update, and debug, which contributes to the overall reliability of the software application.
