@@ -64,13 +64,14 @@ public class LocalizedGreetingTest {
 1. Confirm that all Unit tests are pass successfully.
 2. Create a JaCOCO report
 
-### Add a Dockfile to the project and run the file locally
+## Task 4. Add a Dockfile to the project and run the file locally
+## Task 5. Create a Jenkins pipeline with a name `OTP2_VK1_LocalDemo1` and create application image which upload in *hub.docker.com* test your image in *https://labs.play-with-docker.com/*
 
 ## Submission
 1. Submit the github repor
 2. Submit the screenshot of the JaCoCo result
 3. Screenshot of the Docker Image from docker desktop
-
+4. Screenshot of the -labs.play- output
 ## Notes
 Encoding: Make sure all .properties files use UTF-8 encoding to prevent character corruption in non-Latin languages.
 Testing: Run tests on a system that supports UTF-8 characters if using a terminal or command line.
