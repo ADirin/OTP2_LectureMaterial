@@ -100,17 +100,22 @@ Functional Testing: Verify that locale-specific data (dates, times, currencies) 
   -- Avoid Sensitive Content: Avoid visuals that may be offensive or inappropriate in certain regions due to cultural, religious, or political sensitivities.
   
 - Videos and Multimedia
+  
   -- Subtitles and Captions: Provide translations for all spoken content, including video subtitles and captions.
+  
   -- Voiceovers and Dubbing: Consider local voiceovers or dubbing to make audio content more relatable and accessible.
 
 3. Date, Time, and Number Formatting
 - Date Formats
   
   -- Adapt date formats to the local standards (e.g., MM/DD/YYYY in the U.S. vs. DD/MM/YYYY in Europe). Make sure the user sees dates in a familiar format.
+  
 - Time Zones
   -- Display times based on the user’s local time zone, especially for scheduling features, notifications, and updates.
+  
 - Number Formatting
   -- Adapt number formats, including decimal separators (commas vs. dots) and thousands separators based on locale.
+  
 - Currency
   -- Display prices in the local currency and ensure conversions are accurate. Use symbols and currency codes to avoid confusion
 
