@@ -23,6 +23,20 @@ Internationalization is the process of designing software products that meet the
 
 Software localization is the process of adapting software to meet the language, cultural, and technical requirements of a specific target market. It involves more than just translating the user interface (UI) text; it also requires modifications to aspects like date formats, currency, and even user experience elements. The goal of software localization is to make the software feel natural to users in different regions, ensuring that it operates seamlessly within their cultural context.
 
+```mermaid
+graph TD
+    A[Project Kickoff] --> B[Text Extraction]
+    B --> C[Translation]
+    C --> D[Review & Edit]
+    D --> E[Testing]
+    E --> F{Approved?}
+    
+    F -- Yes --> G[Delivery]
+    F -- No --> C
+
+
+```
+
 ## Software Analysis
 
 Software analysis refers to the examination and evaluation of software applications to understand their structure, functionality, and behavior. This can include code analysis, requirements analysis, and architectural analysis, among others. The purpose of software analysis is to identify potential improvements, detect bugs, ensure adherence to requirements, and evaluate the overall performance and maintainability of the software.
