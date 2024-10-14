@@ -60,6 +60,8 @@ https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-gr
 
 [Figure Reference, Erricson forcast](https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-t)
 
+[Fig_ref](https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-traffic-113635)
+
 ---
 
 ### **5. Factors Influencing Web and Mobile Traffic Share**
