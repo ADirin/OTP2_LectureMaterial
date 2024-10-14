@@ -72,7 +72,7 @@ With the rise of smartphones, tablets, and other portable devices, mobile traffi
 
 ![Social Media](/Images/socialMedia.JPG)
 
-[Ref](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/)
+[Fig_Ref](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/)
 ---
 
 ### **6. Future Projections and Trends**
