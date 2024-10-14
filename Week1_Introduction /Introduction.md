@@ -6,6 +6,10 @@
 
 Internationalization is the process of designing software products that meet the linguistic, cultural, and technical requirements of different countries and regions. 
 
+Globalization has made it essential for software products to be accessible and user-friendly across different languages, regions, and cultures. The process of designing software without hard-coded assumptions based on locale is known as internationalization (i18n).
+
+Internationalization prepares the software for localization (l10n), which involves adapting it to specific languages and regions. Properly internationalized software allows for smooth localization with minimal changes to the core codebase.
+
 `Figure 1 present the most of the top 25 world languages`
 
 > ![Top languages](/Images/world-languages-graphics.jpg)
@@ -17,6 +21,19 @@ Internationalization is the process of designing software products that meet the
 - Improve user experience (saves time, cost, speaks the user's language)
 - Improve market penetration and hence revenue
  
+#### Key Concepts:
+- Internationalization (i18n): The process of designing software in a way that makes it adaptable to different locales without changing the codebase significantly. It involves setting up support for multiple languages, cultural formats, and region-specific conventions.
+
+- Localization (l10n): Adapting the software for specific locales, including translation, cultural adjustments, and regional formatting (like date, time, and currency).
+
+- Globalization (g11n): The overarching process that encompasses both internationalization and localization, enabling software to function and be relevant worldwide.
+
+#### Goals of Internationalization
+- Separating Content from Code: Ensure that text, images, and locale-specific elements (dates, currency formats) are stored separately from the code. This allows translators and regional experts to modify content without changing the code.
+
+- Supporting Multiple Locales: Build flexible structures that support various character sets (e.g., UTF-8 for multilingual text), date formats, and regional conventions.
+
+- Minimal Codebase Changes: By structuring code with internationalization in mind, changes made for one locale should not require a significant overhaul of the code for other locales.
 
 ---
 
