@@ -56,6 +56,8 @@ With the rise of smartphones, tablets, and other portable devices, mobile traffi
 
 ![Trafic usage](/Images/trafic.JPG)
 
+[Figure Reference, Erricson forcast](https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-t)
+
 ---
 
 ### **5. Factors Influencing Web and Mobile Traffic Share**
