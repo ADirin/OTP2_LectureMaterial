@@ -43,7 +43,7 @@ With the rise of smartphones, tablets, and other portable devices, mobile traffi
 - **Desktop Traffic**: Desktop accounts for around **39%**, while tablets make up the remaining **2%**.
 - **Growth Trends**: Mobile traffic share has increased steadily over the past decade, while desktop traffic has seen a gradual decline as mobile technology and internet access have improved.
 
-[See the trend](https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-traffic-113635)
+[See the trend](https://www.mobiloud.com/blog/what-percentage-of-internet-traffic-is-mobile#:~:text=Mobile%20makes%20up%2058.21%25%20of,up%2037%25%20of%20total%20traffic.)
 
 ---
 
