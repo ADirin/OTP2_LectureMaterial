@@ -64,9 +64,12 @@ public class LocalizedGreetingTest {
 1. Confirm that all Unit tests are pass successfully.
 2. Create a JaCOCO report
 
+### Add a Dockfile to the project and run the file locally
+
 ## Submission
 1. Submit the github repor
 2. Submit the screenshot of the JaCoCo result
+3. Screenshot of the Docker Image from docker desktop
 
 ## Notes
 Encoding: Make sure all .properties files use UTF-8 encoding to prevent character corruption in non-Latin languages.
