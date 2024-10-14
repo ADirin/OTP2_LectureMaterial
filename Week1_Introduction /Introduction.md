@@ -17,11 +17,7 @@ Internationalization is the process of designing software products that meet the
 - Improve user experience (saves time, cost, speaks the user's language)
 - Improve market penetration and hence revenue
  
----
-title: "Learning Material: Web and Mobile Traffic Share in the Global Market"
-author: "Your Name"
-date: "2023-10-13"
-tags: ["web traffic", "mobile traffic", "global market", "technology trends", "internet usage"]
+
 ---
 
 # **Learning Material: Web and Mobile Traffic Share in the Global Market**
