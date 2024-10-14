@@ -54,6 +54,8 @@ With the rise of smartphones, tablets, and other portable devices, mobile traffi
 - **Africa and Middle East**: Mobile accounts for over 75% of web traffic in many African countries, largely due to limited desktop access and the popularity of mobile internet.
 - **Latin America**: Similar to Asia, Latin America shows high mobile traffic, with about 65% of web usage coming from mobile.
 
+![Trafic usage](Images/trafic.JPG)
+
 ---
 
 ### **5. Factors Influencing Web and Mobile Traffic Share**
