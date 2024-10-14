@@ -70,6 +70,8 @@ With the rise of smartphones, tablets, and other portable devices, mobile traffi
 5. **Social Media and App Usage**: The rise of mobile apps, especially social media and e-commerce, drives users to mobile devices.
 6. **5G and Faster Mobile Internet**: The expansion of 5G networks supports faster, more reliable mobile internet, encouraging mobile usage.
 
+![Social Media](/Images/socialMedia.JPG)
+
 ---
 
 ### **6. Future Projections and Trends**
