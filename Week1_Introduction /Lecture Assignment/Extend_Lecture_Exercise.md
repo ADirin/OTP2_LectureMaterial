@@ -64,8 +64,8 @@ public class LocalizedGreetingTest {
 1. Confirm that all Unit tests are pass successfully.
 2. Create a JaCOCO report
 
-## Task 4. Add a Dockfile to the project and run the file locally
-## Task 5. Create a Jenkins pipeline with a name `OTP2_VK1_LocalDemo1` and create application image which upload in *hub.docker.com* test your image in *https://labs.play-with-docker.com/*
+## Task 5. Add a Dockfile to the project and run the file locally
+## Task 6. Create a Jenkins pipeline with a name `OTP2_VK1_LocalDemo1` and create application image which upload in *hub.docker.com* test your image in *https://labs.play-with-docker.com/*
 
 ## Submission
 1. Submit the github repor
