@@ -45,8 +45,6 @@ With the rise of smartphones, tablets, and other portable devices, mobile traffi
 
 [See the trend](https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-traffic-113635)
 
-
-https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-traffic-113635
 ---
 
 ### **4. Regional Breakdown**
@@ -58,7 +56,6 @@ https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-gr
 
 ![Trafic usage](/Images/trafic.JPG)
 
-[Figure Reference, Erricson forcast](https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-t)
 
 [Fig_ref](https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-traffic-113635)
 
