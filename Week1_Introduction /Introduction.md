@@ -44,6 +44,9 @@ With the rise of smartphones, tablets, and other portable devices, mobile traffi
 - **Growth Trends**: Mobile traffic share has increased steadily over the past decade, while desktop traffic has seen a gradual decline as mobile technology and internet access have improved.
 
 [See the trend](https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-traffic-113635)
+
+
+https://telecomlead.com/4g-lte/ericsson-mobility-report-forecasts-exponential-growth-in-global-mobile-data-traffic-113635
 ---
 
 ### **4. Regional Breakdown**
