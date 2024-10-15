@@ -150,4 +150,5 @@ public class HelloController {
 3. In Project Structure, add the appropriate libraries and dependencies to your module settings.
 4. Configure the VM options under Run > Edit Configurations. Refer to the figure below for guidance.
 
+![New Project](/Images/jfx13.JPG)
 
