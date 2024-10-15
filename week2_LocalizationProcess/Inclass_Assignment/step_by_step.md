@@ -148,9 +148,12 @@ public class HelloController {
 1. Make sure you have downloaded the JavaFX SDK, for example, from [Installing the JavaFX SDK](https://www.oracle.com/java/technologies/install-javafx-sdk.html).
 2. Verify that your compiler settings are compatible (go to File > Settings > Build, Execution, Deployment > Compiler).
 
-![New Project](/Images/jfx14.JPG)
+![New Project](/Images/jfx15.JPG)
 
 4. In Project Structure, add the appropriate libraries and dependencies to your module settings.
+
+![New Project](/Images/jfx14.JPG)
+
 5. Configure the VM options under Run > Edit Configurations. Refer to the figure below for guidance.
 
 ![New Project](/Images/jfx13.JPG)
