@@ -12,6 +12,8 @@
 1. Open the `hello-view.fxml` file.
 2. Add four buttons and a label to the layout as shown below:
 ![New Project](/Images/jfx2.png)
+
+
 ```xml
    <VBox prefHeight="186.0" prefWidth="239.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo2.HelloController">
        <padding>
@@ -33,14 +35,20 @@
 3. If you encounter an error for any component, ensure to import the necessary classes.
 
 ![New Project](/Images/jfx3.png)
+
 5. Create methods for each button (onbtnENClick, onbtnFRClick, onbtnJPClick, onbtnIRClick).
+
 ![New Project](/Images/jfx4.png)
 
 ## Step 3: Modify the Controller Class
+
 ![New Project](/Images/jfx5.png)
+
 1. Open the HelloController class.
 2. Update the content of the HelloController class as shown below.
+
 ![New Project](/Images/jfx6.png)
+
 ## Step 4: Implement Button Click Methods in HelloController
 - For each button (btnEN, btnFR, btnJP, btnIR), create corresponding methods annotated with @FXML to specify the onAction event.
 
@@ -110,14 +118,25 @@ public class HelloController {
 ```
 ## Step 5: Add Resource Bundles
 1. Select the source directory and create properties files for each language.
+
 ![New Project](/Images/jfx7.png)
+
 3. For each file (e.g., message_en.UK.properties, message_fr.FR.properties), add appropriate greeting messages.
+
 ![New Project](/Images/jfx8.png)
+
 ![New Project](/Images/jfx9.png)
+
 ![New Project](/Images/jfx10.png)
+
 ## Step 6: Run the Application
+
 1. Build and run your JavaFX application (e.g., HelloApplication).
+
 ![New Project](/Images/jfx11.png)
+
 3. The application window should display buttons for different languages (EN, FR, JP, IR) and a label for greetings.
+
 ![New Project](/Images/jfx12.png)
+
 5. Click each button to confirm the language changes, and the greeting message updates accordingly.
