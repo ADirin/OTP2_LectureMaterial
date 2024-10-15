@@ -6,6 +6,8 @@
 2. Create a new JavaFX project or open an existing one where you intend to incorporate this feature.
 3. Simply click on "Create" without selecting any additional libraries.
 
+![New Project](Images/jfx1.png)
+
 ## Step 2: Modify the FXML File
 1. Open the `hello-view.fxml` file.
 2. Add four buttons and a label to the layout as shown below:
