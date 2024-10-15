@@ -10,8 +10,10 @@
 
 ## Step 2: Modify the FXML File
 1. Open the `hello-view.fxml` file.
-2. Add four buttons and a label to the layout as shown below:
+
 ![New Project](/Images/jfx2.png)
+
+3. Add four buttons and a label to the layout as shown below:
 
 
 ```xml
