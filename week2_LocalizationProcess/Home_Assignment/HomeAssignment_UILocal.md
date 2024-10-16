@@ -233,14 +233,22 @@ public void loadView(Locale locale) {
 ```
 
   12.  Run the application.
-![New Project](/Images/jfxh26.png)
+
   *Note:* If you see a question mark for Persian and Japanese, ensure to select the UTF-8 formatting from File → Settings → Editor → File Encoding.
+
+  ![New Project](/Images/jfxh26.png)
 
   13. Make sure the font in the corresponding bundle is properly translated and not displayed as ???.
 
+![New Project](/Images/jfxh24,5.png)
+
   If that is the case, use Google Translate to get the correct translation.
 
+![New Project](/Images/jfxh24,6.png)
+
   14. Run again.
+
+![New Project](/Images/jfxh27.png)
 
 ------------------------
 
