@@ -37,16 +37,29 @@
    Open the `Hello-view.fxml` and do the following modifications:
 
    1. Add the `fx:id` for each button if Scene Builder does not create it:
-    
- ![New Project](/Images/jfxh8.png)
+
+```xml
+<children>
+    <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="button 1"/>
+    <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="button 2"/>
+    <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="button 3"/>
+
+  </children>
+``` 
 
    Add manually the `fx:id`.
+```xml
+<children>
+    <Button fx:id="button1" mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="button 1"/>
+    <Button fx:id="button2" mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="button 2"/>
+    <Button fx:id="button3" mnemonicParsing="false" prefHeight="26.0" prefWidth="270.0" text="button 3"/>
 
- ![New Project](/Images/jfxh9.png)     
+  </children>
+```
 
    3. Create three button-type objects in the `HelloController` as shown in the following figure:
 
-![New Project](/Images/jfxh10.png)
+![New Project](/Images/jfxh9.png)
 
    5. Add an `initialize` method to initialize the buttons through the resource bundle as shown in the figure:
 
@@ -60,7 +73,7 @@
 ```
   4. Run the code and make sure the button labels are updated from bundle1, as shown in the following figure.
 
- ![New Project](/Images/jfxh11.png)
+ ![New Project](/Images/jfxh10.png)
 
 ----------------------
 
