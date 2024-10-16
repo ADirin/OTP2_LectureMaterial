@@ -1,10 +1,11 @@
 
 # Software engineering project 2
-- With passing grade on OTP 1 you are not allowed to take this course (Contact teacher for further clearification)
-- In this course we continue whit the same project unless you want to change it (Not recommended)
-- Same group with the same setup
-- We continue and extend trello with more product backlog with focus on the localization and non-functional testing
-- You have still the chance to change your team (Not recommended)
+## Prerequist 
+1. You have already passed SEP 1 (OTP1). (Contact the teacher if you have not done this yet.)
+2. In this course, we will continue with the same project unless you want to change it (not recommended).
+3. The same group may continue, but you also have the option to change groups.
+4. We will continue and extend Trello with more product backlog items that focus on localization, as well as functional and non-functional testing.ting
+
 
 ---------------------------------------------------
 # Intorudction to OTP2:
@@ -12,8 +13,19 @@
 ## The focus of this course is on:
 
 - Internationalization (Sprint 5)
+  -- User Interface
+  -- Database
 - Quality assurance (Sprint 6)
-- Documentation (Sprint 7)
+  -- Introduction QA
+  -- Statistical Test Analysis
+
+ - Testing (Spring 7)
+   -- Functional Testing
+   -- None-functional
+  
+- Documentation (Sprint 8)
+   -- Type of documentation
+   -- Presentation  
 
 There are 4 sprints, each lasting for two weeks.
 
