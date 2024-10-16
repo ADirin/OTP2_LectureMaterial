@@ -67,13 +67,21 @@
 ## Phase II
   1. Add another bundle as shown in the figure below.
 
-  2. Copy the text from bundle1 to bundle2 and change it in bundle2 as indicated in the following figure:
+ ![New Project](/Images/jfxh12.png)
+
+  3. Copy the text from bundle1 to bundle2 and change it in bundle2 as indicated in the following figure:
 
 *Note:* There should not be a space between buttons and number (e.g., button1, button2, button3).
 
+![New Project](/Images/jfxh13.png)
+
   3. Change the ResourceBundle file in the initialize method to bundle2. See the figure below.
 
-  4. Run and make sure that bundle2 is selected for ResourceBundle. See figure below.
+![New Project](/Images/jfxh14.png)
+
+  5. Run and make sure that bundle2 is selected for ResourceBundle. See figure below.
+
+![New Project](/Images/jfxh15.png)
 
 ------------------------
 
