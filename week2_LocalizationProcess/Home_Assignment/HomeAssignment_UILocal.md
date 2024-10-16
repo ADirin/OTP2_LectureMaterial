@@ -59,7 +59,7 @@
 
    3. Create three button-type objects in the `HelloController` as shown in the following figure:
 
-![New Project](/Images/jfxh9.png)
+![New Project](/Images/jfxh8.png)
 
    5. Add an `initialize` method to initialize the buttons through the resource bundle as shown in the figure:
 
@@ -73,7 +73,7 @@
 ```
   4. Run the code and make sure the button labels are updated from bundle1, as shown in the following figure.
 
- ![New Project](/Images/jfxh10.png)
+ ![New Project](/Images/jfxh9.png)
 
 ----------------------
 
