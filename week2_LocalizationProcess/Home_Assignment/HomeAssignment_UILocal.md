@@ -151,11 +151,19 @@ stage.show();
   ```
   2. Add a Bundle with the following three languages by using the + sign (EN, IR, JP).
 
-  3. Modify the bundle which you have just created.
+![New Project](/Images/jfxh17.png) and ![New Project](/Images/jfxh18.png)
 
-  4. Modify and add an action method to the buttons in hello-view.fxml.
+  4. Modify the bundle which you have just created.
 
-  5. Point the mouse to the newly created actions and select Create Method (see the screenshots below):
+![New Project](/Images/jfxh19.png) and ![New Project](/Images/jfxh20.png) and ![New Project](/Images/jfxh21.png)
+ 
+  6. Modify and add an action method to the buttons in hello-view.fxml.
+
+![New Project](/Images/jfxh22.png)
+
+  8. Point the mouse to the newly created actions and select Create Method (see the screenshots below):
+
+![New Project](/Images/jfxh23.png)
 
 Follow for all three onAction buttons.
 
