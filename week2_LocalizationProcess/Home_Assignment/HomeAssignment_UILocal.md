@@ -135,7 +135,7 @@ stage.show();
 
   4. Run the code and see the changes. In the screenshots below, the button 3 is not set as a variable (%button3.text) just to demonstrate the behavior of the % for the other two buttons.
 
-![New Project](/Images/jfxh15.png)
+![New Project](/Images/jfxh16.png)
 
 ----------------------------------------------------------
 
