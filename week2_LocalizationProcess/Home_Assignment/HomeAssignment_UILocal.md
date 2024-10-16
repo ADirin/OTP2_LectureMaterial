@@ -92,7 +92,7 @@
 
 ![New Project](/Images/jfxh12.png)
 
-  5. Run and make sure that bundle2 is selected for ResourceBundle. See figure below.
+  4. Run and make sure that bundle2 is selected for ResourceBundle. See figure below.
 
 ![New Project](/Images/jfxh13.png)
 
@@ -102,6 +102,16 @@
 
   1. Comment out the statements inside the initialize method as shown in the figure below.
 
+```java
+public void initialize(){
+        //ResourceBundle bundle = ResourceBundle.getBundle("bundle2");
+        //button1.setText(bundle.getString(button1.text));
+        //button2.setText(bundle.getString(button2.text));
+        //button3.setText(bundle.getString(button3.text));
+        
+}
+
+```
   2. Open the HelloApplication file and make the following modifications:
 
 ```java
@@ -124,6 +134,8 @@ stage.show();
 ```
 
   4. Run the code and see the changes. In the screenshots below, the button 3 is not set as a variable (%button3.text) just to demonstrate the behavior of the % for the other two buttons.
+
+![New Project](/Images/jfxh14.png)
 
 ----------------------------------------------------------
 
