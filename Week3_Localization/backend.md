@@ -54,7 +54,7 @@ A single table contains additional columns for each language, with each column h
 
   -- Increases table width and wastes space if some languages aren’t used.
 
-## Approach 4: Translation Table (Recommended)
+** Approach 4: Translation Table (Recommended)**
 
 A translation table holds all translations for localizable content, with each entry tied to a specific locale. This approach uses a main table with reference keys to the translation table.
 
