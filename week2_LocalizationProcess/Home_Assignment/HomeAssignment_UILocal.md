@@ -248,7 +248,7 @@ public void loadView(Locale locale) {
 
   14. Run again.
 
-![New Project](/Images/jfxh27.png)
+![New Project](/Images/jfxh27.PNG)
 
 ------------------------
 
