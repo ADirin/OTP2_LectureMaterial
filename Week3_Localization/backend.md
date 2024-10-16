@@ -9,7 +9,7 @@ This learning material covers the basics of database localization with a focus o
 **What is Database Localization?**
 Database localization is the process of adapting database content, schemas, and queries to support different languages and regions. Localization in relational databases may involve storing translated text, managing date and time formats, currency conversion, and even providing region-specific content.
 
-![*Example of field localization*] (https://github.com/ADirin/field_localization_demonstration)
+
 
 **Why is Localization Important?**
 In global applications, localization improves user experience by presenting data in a familiar format and language. For businesses, localization can increase user engagement and market reach by creating a personalized experience for users in different regions.
@@ -27,7 +27,11 @@ In global applications, localization improves user experience by presenting data
 
 ## 3. Localization Approaches in Relational Databases
 
-**Approach 1: Separate Tables for Each Language**
+**Approach 1: Field  localization**
+
+![*Example of field localization*] (https://github.com/ADirin/field_localization_demonstration)
+
+**Approach 2: Separate Tables for Each Language**
 
 In this approach, each language has its own table, which is queried based on the user’s language preference.
 
@@ -38,7 +42,7 @@ In this approach, each language has its own table, which is queried based on the
 
   -- Increases the number of tables and complicates database management.
 
-**Approach 2: Columns for Each Language**
+**Approach 3: Columns for Each Language**
 
 A single table contains additional columns for each language, with each column holding data in a specific language.
 
@@ -50,7 +54,7 @@ A single table contains additional columns for each language, with each column h
 
   -- Increases table width and wastes space if some languages aren’t used.
 
-## Approach 3: Translation Table (Recommended)
+## Approach 4: Translation Table (Recommended)
 
 A translation table holds all translations for localizable content, with each entry tied to a specific locale. This approach uses a main table with reference keys to the translation table.
 
