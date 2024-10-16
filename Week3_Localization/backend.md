@@ -9,6 +9,8 @@ This learning material covers the basics of database localization with a focus o
 **What is Database Localization?**
 Database localization is the process of adapting database content, schemas, and queries to support different languages and regions. Localization in relational databases may involve storing translated text, managing date and time formats, currency conversion, and even providing region-specific content.
 
+![*Example of field localization*] (https://github.com/ADirin/field_localization_demonstration)
+
 **Why is Localization Important?**
 In global applications, localization improves user experience by presenting data in a familiar format and language. For businesses, localization can increase user engagement and market reach by creating a personalized experience for users in different regions.
 
