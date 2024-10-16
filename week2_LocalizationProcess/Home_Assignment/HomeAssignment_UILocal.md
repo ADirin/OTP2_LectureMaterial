@@ -169,8 +169,9 @@ Follow for all three onAction buttons.
 
   6. Open the HelloController and make sure you have already created the three methods.
 
-  7. Create a method and call it loadView in your HelloController as shown below. Copy the FXMLLoader from the start method in HelloApplication:
+![New Project](/Images/jfxh24.png)
 
+  7. Create a method and call it loadView in your HelloController as shown below. Copy the FXMLLoader from the start method in HelloApplication:
 
 ```java
 FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
@@ -187,6 +188,8 @@ public void loadView(Locale locale) throws IOException {
 }
 ```
   8. Create a Locale object in each button's methods (see below):
+
+![New Project](/Images/jfxh25.png)
 
    Repeat the same steps for the other two buttons.
 
@@ -230,7 +233,7 @@ public void loadView(Locale locale) {
 ```
 
   12.  Run the application.
-
+![New Project](/Images/jfxh26.png)
   *Note:* If you see a question mark for Persian and Japanese, ensure to select the UTF-8 formatting from File → Settings → Editor → File Encoding.
 
   13. Make sure the font in the corresponding bundle is properly translated and not displayed as ???.
