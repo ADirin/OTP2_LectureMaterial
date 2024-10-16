@@ -13,19 +13,19 @@
 ## The focus of this course is on:
 
 - Internationalization (Sprint 5)
-  -- User Interface
-  -- Database
+  - User Interface
+  - Database
 - Quality assurance (Sprint 6)
-  -- Introduction QA
-  -- Statistical Test Analysis
+  - Introduction QA
+  - Statistical Test Analysis
 
  - Testing (Spring 7)
-   -- Functional Testing
-   -- None-functional
+   - Functional Testing
+   - None-functional
   
 - Documentation (Sprint 8)
-   -- Type of documentation
-   -- Presentation  
+   - Type of documentation
+   - Presentation  
 
 There are 4 sprints, each lasting for two weeks.
 
