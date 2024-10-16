@@ -29,7 +29,8 @@
 
 There are 4 sprints, each lasting for two weeks.
 
-All face to face **are compulsory** to particiapte. Furthermore, all team members must participate in the project development.
+### NOTE:
+All face to face __**are compulsory**__ to particiapte. Furthermore, all team members must participate in the project development.
 
 ### Criteria for Passing the Course:
 
