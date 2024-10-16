@@ -7,18 +7,20 @@
 
    Just click create (No need to select any libraries).
 
-3. Right-click the FXML file and open the file through Scene Builder. (If you do not have it installed yet, you need to search for it on Google to install it).
+   ![New Project](/Images/jfxh1.png)
 
-4. Remove the Hello buttons and the label, then add three buttons as shown in the following figures.
+4. Right-click the FXML file and open the file through Scene Builder. (If you do not have it installed yet, you need to search for it on Google to install it).
+
+5. Remove the Hello buttons and the label, then add three buttons as shown in the following figures.
 
    You may change the text of the button on the right side of the screen in the properties tab.
 
-5. In Scene Builder, go to **File** and save the changes you made above.
-6. Get back to the IntelliJ project and add a bundle as shown in the figure below:
+6. In Scene Builder, go to **File** and save the changes you made above.
+7. Get back to the IntelliJ project and add a bundle as shown in the figure below:
 
    Add only a bundle without defining a language or a country.
 
-7. Add the following buttons in `bundle1` (see below):
+8. Add the following buttons in `bundle1` (see below):
 
    Open the `Hello-view.fxml` and do the following modifications:
 
