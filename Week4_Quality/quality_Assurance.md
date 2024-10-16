@@ -108,4 +108,73 @@ Software Quality Assurance is a vital practice that ensures software products ar
 - [ISTQB Foundation Syllabus](https://www.istqb.org)
 - [Software Engineering Body of Knowledge (SWEBOK)](https://www.computer.org/education/bodies-of-knowledge/software-engineering)
 
+------------------
+
+# Tools for Supporting Software Quality Measurements
+
+Software quality measurements involve assessing different aspects of software to ensure it meets specified quality standards, such as functionality, reliability, efficiency, and maintainability. Here is a list of commonly used tools that support various software quality measurements.
+
+## 1. **SonarQube**
+   - **Purpose**: Code quality and security analysis
+   - **Features**: Detects code smells, bugs, and security vulnerabilities; provides detailed quality metrics for maintainability, reliability, and security. Supports over 25 programming languages.
+   - **Use Case**: Continuous integration and continuous delivery (CI/CD) environments for ongoing quality monitoring.
+
+## 2. **Jira**
+   - **Purpose**: Project and defect tracking
+   - **Features**: Tracks issues and bugs, provides real-time reports on development progress, and allows custom workflows. Integrates with test and CI tools for comprehensive quality tracking.
+   - **Use Case**: Tracking and managing bugs, user stories, and tasks, with visualizations that support team productivity metrics.
+
+## 3. **Selenium**
+   - **Purpose**: Automated testing for web applications
+   - **Features**: Supports cross-browser testing, integration with CI/CD, and scripting in multiple languages. Measures functional aspects through automated regression and UI testing.
+   - **Use Case**: Functional testing of web applications to ensure they perform correctly across different environments.
+
+## 4. **JUnit**
+   - **Purpose**: Unit testing for Java applications
+   - **Features**: Allows developers to write repeatable tests and track code quality metrics such as code coverage. JUnit is widely integrated with CI/CD pipelines.
+   - **Use Case**: Testing individual components or units to ensure code correctness and stability.
+
+## 5. **Katalon Studio**
+   - **Purpose**: Automation for web, mobile, API, and desktop applications
+   - **Features**: Provides end-to-end test automation capabilities and supports integration with CI/CD tools. Includes test reporting and analytics for functional quality measurement.
+   - **Use Case**: Comprehensive functional and regression testing for applications across different platforms.
+
+## 6. **AppDynamics**
+   - **Purpose**: Application performance management (APM)
+   - **Features**: Monitors and analyzes real-time application performance, user interactions, and identifies bottlenecks. Provides insights into application scalability and efficiency.
+   - **Use Case**: Monitoring and measuring application performance metrics, especially in production.
+
+## 7. **New Relic**
+   - **Purpose**: Performance monitoring and alerting
+   - **Features**: Offers detailed insights into application performance, error rates, and latency. Supports monitoring across infrastructure, application, and user experience layers.
+   - **Use Case**: Quality measurement in terms of real-time performance and responsiveness under varying load conditions.
+
+## 8. **TestRail**
+   - **Purpose**: Test case management
+   - **Features**: Allows teams to create, organize, and track test cases, as well as monitor test coverage and progress over time. Provides comprehensive test result reports.
+   - **Use Case**: Structured test case management, including manual and automated tests, to ensure functional quality.
+
+## 9. **Apache JMeter**
+   - **Purpose**: Performance testing and load testing
+   - **Features**: Simulates multiple users to test an application's performance under load. Measures response time, throughput, and resource usage to assess scalability.
+   - **Use Case**: Testing an application’s performance limits and responsiveness under heavy load conditions.
+
+## 10. **Dynatrace**
+   - **Purpose**: Application performance monitoring and digital experience management
+   - **Features**: Provides AI-driven insights, monitors full-stack infrastructure, and analyzes user experiences. Measures performance metrics and detects anomalies in real time.
+   - **Use Case**: Monitoring application health, stability, and user satisfaction to improve overall software quality.
+
+## 11. **Postman**
+   - **Purpose**: API testing and validation
+   - **Features**: Allows for automated testing of API functionality, security, and performance. Includes test scripts and monitors for API reliability and response times.
+   - **Use Case**: Testing API endpoints to ensure they function correctly and respond within acceptable times, which contributes to application reliability.
+
+## 12. **CodeClimate**
+   - **Purpose**: Code quality analysis and maintainability
+   - **Features**: Analyzes code for complexity, duplication, and potential defects. Provides a maintainability score and suggests code improvements.
+   - **Use Case**: Continuous code quality tracking and ensuring maintainable code in long-term projects.
+
+---
+
+These tools collectively contribute to a comprehensive software quality measurement approach, enabling teams to track, assess, and improve code quality, functionality, performance, and user satisfaction.
 
