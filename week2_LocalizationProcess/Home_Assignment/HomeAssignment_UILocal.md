@@ -11,26 +11,44 @@
 
 4. Right-click the FXML file and open the file through Scene Builder. (If you do not have it installed yet, you need to search for it on Google to install it).
 
+   ![New Project](/Images/jfxh2.png)
+
 5. Remove the Hello buttons and the label, then add three buttons as shown in the following figures.
 
+   ![New Project](/Images/jfxh3.png)
+   
    You may change the text of the button on the right side of the screen in the properties tab.
 
-6. In Scene Builder, go to **File** and save the changes you made above.
-7. Get back to the IntelliJ project and add a bundle as shown in the figure below:
+   ![New Project](/Images/jfxh4.png)
+
+7. In Scene Builder, go to **File** and save the changes you made above.
+8. Get back to the IntelliJ project and add a bundle as shown in the figure below:
+
+   ![New Project](/Images/jfxh5.png)
 
    Add only a bundle without defining a language or a country.
 
-8. Add the following buttons in `bundle1` (see below):
+   ![New Project](/Images/jfxh6.png)
+
+10. Add the following buttons in `bundle1` (see below):
+
+   ![New Project](/Images/jfxh7.png)
 
    Open the `Hello-view.fxml` and do the following modifications:
 
    1. Add the `fx:id` for each button if Scene Builder does not create it:
+    
+ ![New Project](/Images/jfxh8.png)
 
-      Add manually the `fx:id`.
+   Add manually the `fx:id`.
 
-   2. Create three button-type objects in the `HelloController` as shown in the following figure:
+ ![New Project](/Images/jfxh9.png)     
 
-   3. Add an `initialize` method to initialize the buttons through the resource bundle as shown in the figure:
+   3. Create three button-type objects in the `HelloController` as shown in the following figure:
+
+![New Project](/Images/jfxh10.png)
+
+   5. Add an `initialize` method to initialize the buttons through the resource bundle as shown in the figure:
 
 ```java
    public void initialize() {
@@ -41,6 +59,8 @@
    }
 ```
   4. Run the code and make sure the button labels are updated from bundle1, as shown in the following figure.
+
+ ![New Project](/Images/jfxh11.png)
 
 ----------------------
 
