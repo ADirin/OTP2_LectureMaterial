@@ -23,6 +23,17 @@ Software Quality Assurance (SQA) is a set of activities aimed at ensuring softwa
 
 Software Quality Assurance is an umbrella term for activities focused on enhancing the quality and reliability of software products. SQA is an integral part of the software development process and is applied at every phase to prevent errors, reduce risks, and ensure that the software product meets specified requirements.
 
+## Terminologies
+
+1. **Software Quality Assurance (SQA)**: Establishment of a network of organizational procedures and standards leading to high-quality software.
+
+2. **Software Quality Planning (SQP)**: Selection of appropriate procedures and standards from this framework and adaptation of these to a specific software project.
+
+3. **Software Quality Control (SQC)**: Definition and enactment of processes that ensure that project quality procedures and standards are being followed by the software development team.
+
+4. **Software Quality Metrics (SQM)**: Collecting and analyzing quality data to predict and control the quality of the software product being developed.
+
+
 ## Importance of Software Quality Assurance
 
 Effective SQA practices are essential because they:
