@@ -53,14 +53,14 @@ There are 4 sprints, each lasting for two weeks.
 
 
 ## Schdeul
-### Group 1:
+### Schedule for Group 1 (3002):
 
 | Date        | Sprint    | Report     | Lecture       | Assignments/Exam |
 |-------------|-----------|------------|---------------|------------------|
 | 21.10.2024  | Sprint 5  |            | Introduction  |                  |
 | 24.10.2024  |           |            | Localization  |                  |
 | 28.10.2024  |           |            |               |                  |
-| 31.10.2024  |           | Review     |               |                  |
+| 31.10.2024  |           | -Review-   |               |                  |
 | 4.11.2024   | Sprint 6  |            | Quality       |                  |
 | 7.11.2024   |           |            |               |                  |
 | 11.11.2024  |           |            |               |                  |
@@ -74,7 +74,7 @@ There are 4 sprints, each lasting for two weeks.
 | 9.12.2024   | EXAM      |            |               |                  |
 | 12.12.2024  | Presentation | Review  |               |                  |
 
-### Group II
+### Schedule for Group 1 (3005):
 
 | Date        | Sprint    | Report     | Lecture       | Assignments/Exam |
 |-------------|-----------|------------|---------------|------------------|
@@ -97,4 +97,6 @@ There are 4 sprints, each lasting for two weeks.
 
 
 ## Sprint review  and planning meeting
+
+**NOTE**: All team members must participate during the review sessions
 
