@@ -2,6 +2,8 @@
 
 Testing is a critical component of Software Quality Assurance (SQA) and is broadly categorized into **Functional** and **Non-Functional Testing**. Each type has its own objectives and techniques to ensure that software performs as intended and meets user expectations.
 
+![Software Testing](/Images/softwareTesting.gif)
+
 ## Table of Contents
 - [Introduction to Functional Testing](#introduction-to-functional-testing)
   - [Types of Functional Testing](#types-of-functional-testing)
