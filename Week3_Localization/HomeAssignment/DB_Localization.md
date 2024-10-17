@@ -29,11 +29,17 @@ CREATE TABLE employee_ja (
 ## Database Overview
 This example showcases a database structure with separate tables for each language.
 
+![The UI](/Images/jfxh3_1.png)
+
 ## User Interface for Language Selection
 Develop a user interface that enables users to select their preferred language (English, Farsi, or Japanese). The labels and the save button within the UI should dynamically adapt according to the chosen language, as illustrated below:
 
+![The UI](/Images/jfxh3_2.png)
+
 ## Sample Updates
 The following are sample updates to the tables based on the selected language.
+
+![The UI](/Images/jfxh3_3.png)
 
 ## Localization Options
 Based on the lecture content, consider the following approaches for database localization:
