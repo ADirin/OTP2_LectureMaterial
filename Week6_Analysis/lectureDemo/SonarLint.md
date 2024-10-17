@@ -23,6 +23,15 @@ SonarLint is a powerful tool that helps developers maintain code quality by dete
 2. Create a new Java class named `Main`.
 3. Write the initial version of the `Main` class.
 
+```java
+
+public class Main {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 0;
+        int result = x / y;
+        System.out.println("Result: " + result);
+````
 ---
 
 ## Step 2: Identifying Issues with SonarLint
@@ -38,6 +47,19 @@ SonarLint is a powerful tool that helps developers maintain code quality by dete
 2. Import `java.util.logging.Logger` and create a logger instance in the `Main` class.
 3. Modify the code to use the logger instead of `System.out`.
 
+```java
+import java.util.logging.Logger;
+public class Main {
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
+       public static void main(String[] args) {
+        int x = 10;
+        int y = 0;
+          int result = x / y;
+        logger.info("Result: " + result);
+
+
+```
+
 ---
 
 ## Step 4: Verifying Changes
@@ -46,16 +68,86 @@ SonarLint is a powerful tool that helps developers maintain code quality by dete
 
 ---
 
-## Step 5: Analyzing SonarLint Outputs
+## Step 5: Addressing the Issues
+1.	Let's address the division by zero issue by replacing System.out.println with a logger.
+2.	Import java.util.logging.Logger and create a logger instance in the Main class.
+3.	Modify the code to use the logger instead of System. out.
+
+```java
+package org.example;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+public class Main {
+    // Create a logger
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 5;
+        int result = x / y;
+        // Log the result using the logger with built-in formatting
+        logger.log(Level.INFO, () -> "Result: " + result);
+    }
+}
+
+
+```
+
+---
+
+## Step 6: Analyzing SonarLint Outputs
 After making changes, SonarLint will reanalyze the code and provide feedback on common outputs. Here’s how to interpret some of them:
 
 - **Unused imports**: SonarLint may suggest removing unused imports to keep the code clean and maintainable. This can be done by hovering over the highlighted import statement and selecting the appropriate action.
 - **Code smells**: SonarLint may detect code smells, such as long methods or complex conditionals, indicating areas for improvement in code readability and maintainability. It’s essential to review these suggestions and refactor the code accordingly.
+
+```java
+package com.example;
+public class MyClass {
+    public void longMethod() {
+        // Long method with multiple tasks
+        System.out.println("Task 1");
+        System.out.println("Task 2");
+        // ...
+        System.out.println("Task N");
+    }
+    public void complexConditional(int x, int y) {
+        // Complex conditional logic
+        if (x > 10 && y < 5 || x < 0) {
+            System.out.println("Condition met");
+        }
+    }
+}
+
+```
+![Code analysis](/Images/statistic.png)
+
 - **Potential bugs**: SonarLint can identify potential bugs and vulnerabilities in the code, such as null pointer dereferences or insecure cryptographic algorithms. Address these issues promptly to prevent runtime errors or security vulnerabilities.
 
 > *Tip*: Create a sample example to see potential bugs in your code. For example, try this code...
 
+```java
+package com.example;
+import java.util.Objects;
+public class MyClass {
+    public void nullCheck(String str) {
+        if (str != null) {
+            System.out.println(str.length()); // Potential null pointer dereference
+        }
+    }
+    public void insecureAlgorithm() {
+        String password = "123456";
+        String encryptedPassword = encrypt(password); // Insecure cryptographic algorithm
+        System.out.println("Encrypted Password: " + encryptedPassword);
+    }
+
+
+```
+
+
 - **Best practices**: SonarLint provides recommendations based on best practices and coding standards, helping developers write cleaner and more efficient code. Following these recommendations maintains code consistency and quality across the project.
+
+![Code analysis](/Images/statistic2.png)
+
 
 ---
 
