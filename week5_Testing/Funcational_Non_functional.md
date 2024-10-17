@@ -20,6 +20,9 @@ Testing is a critical component of Software Quality Assurance (SQA) and is broad
 
 Functional Testing is a type of software testing that ensures each function of an application operates according to the specified requirements. It focuses on testing individual functions by providing specific inputs and comparing the output to expected results.
 
+![Software Test](/Images/functionalvsnone.png)
+
+
 ### Types of Functional Testing
 
 1. **Unit Testing**
