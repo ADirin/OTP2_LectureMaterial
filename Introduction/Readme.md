@@ -29,6 +29,27 @@
 
 There are 4 sprints, each lasting for two weeks.
 
+```mermaid
+flowchart TD
+    A["Internationalization (Sprint 5)"] --> B["User Interface"]
+    A --> C["Database"]
+    A --> D["Quality Assurance (Sprint 6)"]
+
+    D --> E["Introduction to QA"]
+    D --> F["Statistical Test Analysis"]
+    D --> G["Testing (Sprint 7)"]
+
+    G --> H["Functional Testing"]
+    G --> I["Non-functional Testing"]
+
+    D --> J["Documentation (Sprint 8)"]
+
+    J --> K["Type of Documentation"]
+    J --> L["Presentation"]
+
+
+```
+
 ### NOTE:
   - All face-to-face sessions are compulsory.
   - Additionally, every team member must actively participate in the project development. If you encounter uncooperative team members, inform the teacher.
