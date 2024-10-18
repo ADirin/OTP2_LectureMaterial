@@ -30,7 +30,11 @@
 There are 4 sprints, each lasting for two weeks.
 
 ### NOTE:
-- All face to face __**are compulsory**__ to particiapte. Furthermore, all team members must participate in the project development.
+  - All face-to-face sessions are compulsory.
+  - Additionally, every team member must actively participate in the project development. If you encounter uncooperative team members, inform the teacher.
+  - Compulsar assignment must be return ontime
+  - Compulsory assignments must be submitted on time, delay will be associated with penalty.
+    
 
 ### Criteria for Passing the Course:
 
