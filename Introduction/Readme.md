@@ -1,4 +1,3 @@
-
 # Software Engineering Project 2
 
 ## Course Overview
@@ -88,7 +87,7 @@ flowchart TD
 
     J --> K["Type of Documentation"]
     J --> L["Presentation"]
-````
+```
 ### Note:
 - All face-to-face sessions are **compulsory**.
 - Additionally, every team member must actively participate in the project development. If you encounter uncooperative team members, inform the teacher.
@@ -101,8 +100,7 @@ Individual performance will be assessed as:
 
   **P = 0.05 × HA + 0.25 × PA + 0.70 × E**
 
- 
-Where:
+ Where:
 
 - **E** = Exam (50%) (compulsory)
 - **PA** = Group-based project assignment (40%) (compulsory)
