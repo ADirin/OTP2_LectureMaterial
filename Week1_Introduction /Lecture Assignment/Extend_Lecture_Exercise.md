@@ -5,7 +5,11 @@ Instead of hardcoding messages or other resources in the application, you store 
 At runtime, the correct version of the resources (depending on the locale) is selected automatically.
 
 ## How ResourceBundle Works:
+
+![Resource Bundle](Images/rBundle2.png)
+
 1. Resource Bundle Files:
+
 
    - Resource bundles are typically properties files (or classes) that contain key-value pairs for different locales.
    - They are named in a specific pattern: baseName_languageCode_countryCode.properties. For example:
@@ -13,9 +17,9 @@ At runtime, the correct version of the resources (depending on the locale) is se
       - Messages_en_US.properties (for U.S. English)
       - Messages_fr_FR.properties (for French)
 
-2. Loading the Correct Resource Bundle: The Java ResourceBundle class will load the correct file based on the user's locale.
+3. Loading the Correct Resource Bundle: The Java ResourceBundle class will load the correct file based on the user's locale.
 
-3. Retrieving Values: The keys from the resource bundle are used to retrieve the locale-specific values in the application code.
+4. Retrieving Values: The keys from the resource bundle are used to retrieve the locale-specific values in the application code.
 
 
 
