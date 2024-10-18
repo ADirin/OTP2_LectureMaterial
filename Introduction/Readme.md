@@ -1,5 +1,50 @@
 
 # Software engineering project 2
+
+## Course Overview
+
+The course continues the project initiated in **Software Engineering Project 1 (SEP1)**. Participation in this course is contingent upon the completion of SEP1. Throughout this course, we will delve into topics such as:
+
+- Software localization
+- Internationalization
+- Quality assurance
+- Project documentation
+
+### Participation and Attendance
+
+Achieving successful completion of the course necessitates **collaborative group efforts**. Therefore, attendance is **mandatory** during:
+
+- Project sprint planning
+- Final demonstrations
+
+### Course Timeline
+
+- **Course Commencement and Initial Sprint Planning**: 1 session
+- **Sprint Conclusion and Planning Meetings**: 2 sessions
+- **Project Demonstrations and Sales Presentations**: 1 session
+
+### Task Submissions
+
+Task submissions are expected to adhere to the specified schedule. **Submissions made after the designated deadline** may only receive **half of the maximum score** for the task.
+
+## Course Evaluation
+
+The course evaluation is influenced by several factors, including:
+
+- Final Exam
+- Assessments of project tasks submitted via OMA, including the utilization of Trello
+- Individual utilization of Git and personal commits
+- Functionality of Jenkins build, including tests and test coverage within the project
+- Personal hours invested in the project
+- Number of compulsory attendance sessions
+
+### Failure Conditions
+
+Failure to meet the required number of logged hours in Trello and the absence of visible work in Git will result in **course failure**.
+
+
+
+
 ## Prerequist 
 1. You have already passed SEP 1 (OTP1). (Contact the teacher if you have not done this yet.)
 2. In this course, we will continue with the same project unless you want to change it (not recommended).
