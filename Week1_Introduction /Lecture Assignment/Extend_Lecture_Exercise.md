@@ -6,7 +6,7 @@ At runtime, the correct version of the resources (depending on the locale) is se
 
 ## How ResourceBundle Works:
 
-![Resource Bundle](Images/rBundle2.png)
+![Resource Bundle](/Images/rBundle2.png)
 
 1. Resource Bundle Files:
 
