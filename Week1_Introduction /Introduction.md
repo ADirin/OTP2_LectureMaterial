@@ -28,6 +28,8 @@ Internationalization prepares the software for localization (l10n), which involv
 
 - Globalization (g11n): The overarching process that encompasses both internationalization and localization, enabling software to function and be relevant worldwide.
 
+> ![Top languages](/Images/globilization1.png)
+
 #### Goals of Internationalization
 - Separating Content from Code: Ensure that text, images, and locale-specific elements (dates, currency formats) are stored separately from the code. This allows translators and regional experts to modify content without changing the code.
 
