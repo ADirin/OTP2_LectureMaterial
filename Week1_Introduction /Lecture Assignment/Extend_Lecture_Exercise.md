@@ -21,7 +21,7 @@ At runtime, the correct version of the resources (depending on the locale) is se
 
 4. Retrieving Values: The keys from the resource bundle are used to retrieve the locale-specific values in the application code.
 
-
+[Reference](https://phrase.com/blog/posts/a-beginners-guide-to-java-internationalization/)
 
 --------------------------
 # Localization Assignment: Extend Language Support with Farsi
