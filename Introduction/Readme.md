@@ -89,34 +89,39 @@ flowchart TD
     J --> K["Type of Documentation"]
     J --> L["Presentation"]
 ````
-### NOTE:
-  - All face-to-face sessions are compulsory.
-  - Additionally, every team member must actively participate in the project development. If you encounter uncooperative team members, inform the teacher.
-  - Compulsar assignment must be return ontime
-  - Compulsory assignments must be submitted on time, delay will be associated with penalty.
-    
+### Note:
+- All face-to-face sessions are **compulsory**.
+- Additionally, every team member must actively participate in the project development. If you encounter uncooperative team members, inform the teacher.
+- **Compulsory assignments** must be submitted on time. A delay will result in a penalty.
+
+---
 
 ### Criteria for Passing the Course:
-
-- Individual performance will be assessed as:
+Individual performance will be assessed as:
 
   **P = 0.05 × HA + 0.25 × PA + 0.70 × E**
 
-  -- You pass the course through an exam (compulsory) **(50%)**,
-  -- A group-based project assignment (compulsory) **(40%)**,
-  -- Individual assignment (compulsory) **(10%)**
+ 
+Where:
 
-### Additional evaluation:
+- **E** = Exam (50%) (compulsory)
+- **PA** = Group-based project assignment (40%) (compulsory)
+- **HA** = Individual assignment (10%) (compulsory)
 
-  -- Peer-review
-  -- Self Evaluation
+#### Additional evaluation:
+- Peer-review
+- Self Evaluation
 
-- Please note that in addition to the hours scheduled in the timetable, the project must also be progressed at other times.
-- A five-credit course requires approximately **12 work hours per week (about 100h)**.
-- Attendance during the contact hours is mandatory unless otherwise specified.
+Please note that in addition to the hours scheduled in the timetable, the project must also be progressed outside of class time.
 
+A five-credit course requires approximately **12 work hours per week (about 100 hours total)**.
 
-## Schdeul
+Attendance during contact hours is **mandatory** unless otherwise specified.
+
+---
+
+## Schedule
+
 ### Schedule for Group 1 (3002):
 
 | Date        | Sprint    | Report     | Lecture       | Assignments/Exam |
@@ -124,7 +129,7 @@ flowchart TD
 | 21.10.2024  | Sprint 5  |            | Introduction  |                  |
 | 24.10.2024  |           |            | Localization  |                  |
 | 28.10.2024  |           |            |               |                  |
-| 31.10.2024  |           | -Review-   |               |                  |
+| 31.10.2024  |           | Review     |               |                  |
 | 4.11.2024   | Sprint 6  |            | Quality       |                  |
 | 7.11.2024   |           |            |               |                  |
 | 11.11.2024  |           |            |               |                  |
@@ -135,10 +140,12 @@ flowchart TD
 | 28.11.2024  |           | Review     |               |                  |
 | 2.12.2024   | Sprint 8  |            | Documentation |                  |
 | 5.12.2024   | EXAM      |            |               |                  |
-| 9.12.2024   | Presentation     |            |               |                  |
-| 12.12.2024  | Rexam | Review  |               |                  |
+| 9.12.2024   | Presentation |         |               |                  |
+| 12.12.2024  | Rexam     | Review     |               |                  |
 
-### Schedule for Group 1 (3005):
+---
+
+### Schedule for Group 2 (3005):
 
 | Date        | Sprint    | Report     | Lecture       | Assignments/Exam |
 |-------------|-----------|------------|---------------|------------------|
@@ -155,12 +162,13 @@ flowchart TD
 | 25.11.2024  |           |            |               |                  |
 | 29.11.2024  |           | Review     |               |                  |
 | 2.12.2024   | Sprint 8  |            | Documentation |                  |
-| 6.12.2024   |  Exam     |            |               |                  |
-| 9.12.2024   | Presentation   |            |               |                  |
-| 13.12.2024  | Rexam | Review  |               |                  |
+| 6.12.2024   | EXAM      |            |               |                  |
+| 9.12.2024   | Presentation |         |               |                  |
+| 13.12.2024  | Rexam     | Review     |               |                  |
 
+---
 
-## Sprint review  and planning meeting
+### Sprint Review and Planning Meetings
 
-**NOTE**: All team members must participate during the review sessions
+**Note**: All team members must participate during the review sessions.
 
