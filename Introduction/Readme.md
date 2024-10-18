@@ -20,13 +20,14 @@ Achieving successful completion of the course necessitates **collaborative group
 
 ### Course Timeline
 
-- **Course Commencement and Initial Sprint Planning**: 4 session,  - see the course scheduel for the dates -
-- **Sprint Conclusion and Planning Meetings**: 4 sessions
+- **Course Commencement and Initial Sprint Planning**: 4 session,  *see the course scheduel for the exact dates*
+- **Sprint Conclusion and Planning Meetings**: 4 sessions, *see the course scheduel for the exact dates*
 - **Project Demonstrations**: 1 session
 
 ### Task Submissions
 
-Task submissions are expected to adhere to the specified schedule. **Submissions made after the designated deadline** may only receive **half of the maximum score** for the task.
+Task submissions are expected to adhere to the specified schedule. 
+  - **Submissions made after the designated deadline** may only receive **half of the maximum score** for the task.
 
 ## Course Evaluation
 
@@ -44,9 +45,7 @@ The course evaluation is influenced by several factors, including:
 Failure to meet the required number of logged hours in Trello and the absence of visible work in Git will result in **course failure**.
 
 
-
-
-## Prerequist 
+## Prerequist for the OTP2  
 1. You have already passed SEP 1 (OTP1). (Contact the teacher if you have not done this yet.)
 2. In this course, we will continue with the same project unless you want to change it (not recommended).
 3. The same group may continue, but you also have the option to change groups.
@@ -54,26 +53,26 @@ Failure to meet the required number of logged hours in Trello and the absence of
 
 
 ---------------------------------------------------
-# Intorudction to OTP2:
+# Software engineering project 2:
 
 ## The focus of this course is on:
 
-- Internationalization (Sprint 5)
-  - User Interface
-  - Database
-- Quality assurance (Sprint 6)
-  - Introduction QA
-  - Statistical Test Analysis
+  1. Internationalization (Sprint 5)
+    - User Interface
+    - Database
+  2.  Quality assurance (Sprint 6)
+    - Introduction QA
+    - Statistical Test Analysis
 
- - Testing (Spring 7)
-   - Functional Testing
-   - None-functional
+  3. Testing (Spring 7)
+     - Functional Testing
+     - None-functional
   
-- Documentation (Sprint 8)
-   - Type of documentation
-   - Presentation  
+  4. Documentation (Sprint 8)
+     - Type of documentation
+     - Presentation  
 
-There are 4 sprints, each lasting for two weeks.
+There are 4 sprints, each lasting for two weeks. The following figure illustrate the outline of the topics
 
 ```mermaid
 flowchart TD
