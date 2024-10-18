@@ -140,9 +140,9 @@ flowchart TD
 | 25.11.2024  |           |            |               |                  |
 | 28.11.2024  |           | Review     |               |                  |
 | 2.12.2024   | Sprint 8  |            | Documentation |                  |
-| 5.12.2024   |           |            |               |                  |
-| 9.12.2024   | EXAM      |            |               |                  |
-| 12.12.2024  | Presentation | Review  |               |                  |
+| 5.12.2024   | EXAM      |            |               |                  |
+| 9.12.2024   | Presentation     |            |               |                  |
+| 12.12.2024  | Rexam | Review  |               |                  |
 
 ### Schedule for Group 1 (3005):
 
@@ -161,9 +161,9 @@ flowchart TD
 | 25.11.2024  |           |            |               |                  |
 | 29.11.2024  |           | Review     |               |                  |
 | 2.12.2024   | Sprint 8  |            | Documentation |                  |
-| 6.12.2024   |           |            |               |                  |
-| 9.12.2024   | EXAM      |            |               |                  |
-| 13.12.2024  | Presentation | Review  |               |                  |
+| 6.12.2024   |  Exam     |            |               |                  |
+| 9.12.2024   | Presentation   |            |               |                  |
+| 13.12.2024  | Rexam | Review  |               |                  |
 
 
 ## Sprint review  and planning meeting
