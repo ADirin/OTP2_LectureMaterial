@@ -14,14 +14,15 @@ The course continues the project initiated in **Software Engineering Project 1 (
 
 Achieving successful completion of the course necessitates **collaborative group efforts**. Therefore, attendance is **mandatory** during:
 
-- Project sprint planning
-- Final demonstrations
+- Project sprint planning, implementation, and reveiwing
+- Lectures
+- Final project demonstrations
 
 ### Course Timeline
 
-- **Course Commencement and Initial Sprint Planning**: 1 session
-- **Sprint Conclusion and Planning Meetings**: 2 sessions
-- **Project Demonstrations and Sales Presentations**: 1 session
+- **Course Commencement and Initial Sprint Planning**: 4 session,  - see the course scheduel for the dates -
+- **Sprint Conclusion and Planning Meetings**: 4 sessions
+- **Project Demonstrations**: 1 session
 
 ### Task Submissions
 
