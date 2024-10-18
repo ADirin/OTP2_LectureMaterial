@@ -4,7 +4,7 @@
 1. You have already passed SEP 1 (OTP1). (Contact the teacher if you have not done this yet.)
 2. In this course, we will continue with the same project unless you want to change it (not recommended).
 3. The same group may continue, but you also have the option to change groups.
-4. We will continue and extend Trello with more product backlog items that focus on localization, as well as functional and non-functional testing.ting
+4. We will continue and extend Trello with more product backlog items that focus on localization, as well as functional and non-functional testing.
 
 
 ---------------------------------------------------
