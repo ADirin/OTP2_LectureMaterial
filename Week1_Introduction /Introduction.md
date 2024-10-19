@@ -435,7 +435,7 @@ public class LocalizedGreetingTest {
         Locale locale = new Locale("es", "ES");
         ResourceBundle messages = ResourceBundle.getBundle("Messages", locale);
         String greeting = messages.getString("greeting");
-        assertEquals("¡Hola!", greeting);
+        assertEquals("Hola!", greeting);
     }
 
     @Test
