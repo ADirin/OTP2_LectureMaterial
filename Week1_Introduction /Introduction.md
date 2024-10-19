@@ -607,3 +607,5 @@ pipeline {
 > ![hub](/Images/hub.png)
 
 - Test the image remotely
+
+> ![hub](/Images/lab.png)
