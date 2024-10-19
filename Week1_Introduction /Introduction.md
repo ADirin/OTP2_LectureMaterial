@@ -288,6 +288,35 @@ Functional testing is a type of testing that ensures that the software operates 
 ### Non-Functional Testing
 Non-functional testing, on the other hand, examines aspects of the software that may not be directly related to specific functions or features. This includes performance testing, security testing, usability testing, and compatibility testing. Non-functional testing ensures that the software meets quality standards and provides a good user experience.
 
+_____________________________
+
+# Localization in Java
+In Java, a ResourceBundle is used to manage localization, allowing applications to support multiple languages and regions. 
+It helps by separating the application's locale-specific data (like strings for messages) from the main code. 
+Instead of hardcoding messages or other resources in the application, you store them externally in files or classes. 
+At runtime, the correct version of the resources (depending on the locale) is selected automatically.
+
+## How ResourceBundle Works:
+
+![Resource Bundle](/Images/rBundle2.png)
+
+1. Resource Bundle Files:
+
+
+   - Resource bundles are typically properties files (or classes) that contain key-value pairs for different locales.
+   - They are named in a specific pattern: baseName_languageCode_countryCode.properties. For example:
+      - Messages.properties (default, for any locale)
+      - Messages_en_US.properties (for U.S. English)
+      - Messages_fr_FR.properties (for French)
+
+3. Loading the Correct Resource Bundle: The Java ResourceBundle class will load the correct file based on the user's locale.
+
+4. Retrieving Values: The keys from the resource bundle are used to retrieve the locale-specific values in the application code.
+
+[Reference](https://phrase.com/blog/posts/a-beginners-guide-to-java-internationalization/)
+
+________________________________________
+
 
 
 ## Simple Example 
