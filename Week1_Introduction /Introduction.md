@@ -531,8 +531,13 @@ COPY . /app/
 RUN mvn package
 
 cmd ["java", "-jar", "target/test.jar"]
+
+
+
 ```
 - Create a github repo and pull the project
+> ![Repo] (https://github.com/ADirin/OTP2_VK1_f2024_Demo1.git)
+
 - Create a Jenkins Project and make sure that you may generate coverage report
 - Create image and deploy in hub.docker.com
 - Test the image remotely
