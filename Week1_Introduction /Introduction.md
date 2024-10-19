@@ -466,41 +466,72 @@ Here's how you can set it up with Maven and combine it with your JUnit tests:
 In your pom.xml, you need to add the JaCoCo plugin under the <build> section. This will allow Maven to run JaCoCo during the build and generate a code coverage report.
 ```xml
 <build>
-    <plugins>
-        <!-- JaCoCo plugin for code coverage -->
-        <plugin>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.8</version>
-            <executions>
-                <execution>
-                    <goals>
-                        <goal>prepare-agent</goal>
-                    </goals>
-                </execution>
-                <!-- Generate code coverage report after tests run -->
-                <execution>
-                    <id>report</id>
-                    <phase>test</phase>
-                    <goals>
-                        <goal>report</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
+        <finalName>test</finalName>
+        <plugins>
+            <!-- JaCoCo plugin for code coverage -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.12</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <!-- Generate code coverage report after tests run -->
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 
-        <!-- JUnit to run the tests -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M5</version>
-        </plugin>
-    </plugins>
-</build>
+            <!-- JUnit to run the tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <!-- Specify the fully qualified Main class -->
+                            <mainClass>LocalizedGreeting</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
 
 ```
 Additional tasks:
-- Create a docker file and create an image and test in desktop docker
+- Create a docker file and create an image and test in desktop docker,
+ - Note use `docker images` and `docker run -it imageID`
+```css
+FROM maven:latest
+
+WORKDIR /app
+
+COPY pom.xml /app/
+
+COPY . /app/
+
+RUN mvn package
+
+cmd ["java", "-jar", "target/test.jar"]
+```
 - Create a github repo and pull the project
 - Create a Jenkins Project and make sure that you may generate coverage report
 - Create image and deploy in hub.docker.com
