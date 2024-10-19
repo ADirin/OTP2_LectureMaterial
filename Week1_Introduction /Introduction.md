@@ -379,5 +379,129 @@ public class LocalizedGreeting {
 
 
 ```
+## Create a Test class and conduct a unit Test
+
+To create a simple unit test case for the LocalizedGreeting class, you can use JUnit, which is a popular testing framework in Java. Here's an example of a test class that tests the localization functionality of your LocalizedGreeting class. Since you're using resource bundles for different languages, the test will check if the correct greeting is fetched based on the locale selected.
+
+First, ensure you have a resource bundle (i.e., Messages.properties, Messages_es.properties, and Messages_fr.properties), each containing a key-value pair for the greeting message. For example:
+
+```css
+greeting=Hello!
+
+```
+```css
+greeting=Hola!
+
+```
+
+```css
+greeting=Bonjour!
+
+```
+### Step 1: Add JUnit to your project
+If you are using Maven, add the JUnit dependency to your pom.xml:
+```xml
+<dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
 
 
+```
+### Step 2: Create a test class for LocalizedGreeting
+
+```java
+import org.junit.Test;
+import java.util.Locale;
+import java.util.ResourceBundle;
+import static org.junit.Assert.assertEquals;
+
+public class LocalizedGreetingTest {
+
+    @Test
+    public void testEnglishGreeting() {
+        Locale locale = new Locale("en", "US");
+        ResourceBundle messages = ResourceBundle.getBundle("Messages", locale);
+        String greeting = messages.getString("greeting");
+        assertEquals("Hello!", greeting);
+    }
+
+    @Test
+    public void testSpanishGreeting() {
+        Locale locale = new Locale("es", "ES");
+        ResourceBundle messages = ResourceBundle.getBundle("Messages", locale);
+        String greeting = messages.getString("greeting");
+        assertEquals("¡Hola!", greeting);
+    }
+
+    @Test
+    public void testFrenchGreeting() {
+        Locale locale = new Locale("fr", "FR");
+        ResourceBundle messages = ResourceBundle.getBundle("Messages", locale);
+        String greeting = messages.getString("greeting");
+        assertEquals("Bonjour!", greeting);
+    }
+
+    @Test
+    public void testInvalidChoiceDefaultsToEnglish() {
+        Locale locale = new Locale("en", "US"); // Simulate default choice
+        ResourceBundle messages = ResourceBundle.getBundle("Messages", locale);
+        String greeting = messages.getString("greeting");
+        assertEquals("Hello!", greeting); // Expected default is English
+    }
+}
+
+
+```
+## JaCoCo reporting
+To integrate JaCoCo for code coverage in your Java project along with JUnit tests, you'll need to configure it in your build system (like Maven). JaCoCo is a popular tool for measuring test coverage and generating reports.
+
+Here's how you can set it up with Maven and combine it with your JUnit tests:
+
+### Step 1: Add JaCoCo Plugin in pom.xml
+In your pom.xml, you need to add the JaCoCo plugin under the <build> section. This will allow Maven to run JaCoCo during the build and generate a code coverage report.
+```xml
+<build>
+    <plugins>
+        <!-- JaCoCo plugin for code coverage -->
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.8</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                    </goals>
+                </execution>
+                <!-- Generate code coverage report after tests run -->
+                <execution>
+                    <id>report</id>
+                    <phase>test</phase>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+
+        <!-- JUnit to run the tests -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version>
+        </plugin>
+    </plugins>
+</build>
+
+```
+Additional tasks:
+- Create a docker file and create an image and test in desktop docker
+- Create a github repo and pull the project
+- Create a Jenkins Project and make sure that you may generate coverage report
+- Create image and deploy in hub.docker.com
+- Test the image remotely
