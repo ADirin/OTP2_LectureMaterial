@@ -569,7 +569,7 @@ Here's how you can set it up with Maven and combine it with your JUnit tests:
 ### Step 1: Add JaCoCo Plugin in pom.xml
 In your pom.xml, you need to add the JaCoCo plugin under the <build> section. This will allow Maven to run JaCoCo during the build and generate a code coverage report.
 ```xml
-<build>
+    <build>
         <finalName>test</finalName>
         <plugins>
             <!-- JaCoCo plugin for code coverage -->
