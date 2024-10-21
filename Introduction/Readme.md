@@ -159,8 +159,8 @@ Attendance during contact hours is **mandatory** unless otherwise specified.
 | 22.11.2024  |           |            |               |                  |
 | 25.11.2024  |           |            |               |                  |
 | 29.11.2024  |           | Review     |               |                  |
-| 2.12.2024   | Sprint 8  |            | Documentation |                  |
-| 6.12.2024   | EXAM      |            |               |                  |
+| 2.12.2024   | Exam |            | Documentation |                  |
+| 6.12.2024   |     |            |               |                  |
 | 9.12.2024   | Presentation |         |               |                  |
 | 13.12.2024  | Rexam     | Review     |               |                  |
 
