@@ -363,9 +363,9 @@ _____________________________
 In Java, a resource bundle is a way to manage locale-specific resources, such as text messages or user interface components, allowing internationalization (i18n) of applications. It enables the application to adapt to different languages and regions by providing locale-specific resources like strings, dates, or numbers in separate files. These bundles are typically stored as property files (.properties) or Java classes.
 
 ## Key Concepts:
-*Base Name:* The common name used for the resource bundle, which is shared by all locale-specific variants.
-*Locale:* Defines the specific language and region (e.g., en_US for English in the United States).
-*Properties File:* A text file containing key-value pairs for each locale, such as messages_en_US.properties.
+ - *Base Name:* The common name used for the resource bundle, which is shared by all locale-specific variants.
+ - *Locale:* Defines the specific language and region (e.g., en_US for English in the United States).
+ - *Properties File:* A text file containing key-value pairs for each locale, such as messages_en_US.properties.
 
 ## How ResourceBundle Works:
 
