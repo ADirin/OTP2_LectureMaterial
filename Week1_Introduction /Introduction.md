@@ -364,7 +364,7 @@ In Java, a resource bundle is a way to manage locale-specific resources, such as
 
 ## ResourseBundle in Java
 
-> ![Resources Bundle](Images/RB.png)
+ ![Resources Bundle](/Images/RB.png)
 
 ### 1. ListResourceBundle
 ListResourceBundle is an abstract class that stores key-value pairs in Java code, using arrays. It's primarily used when you want to define resources directly in Java rather than in external properties files. It is implemented as a class with Object[][] to store key-value pairs.
