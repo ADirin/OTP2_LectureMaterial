@@ -362,10 +362,26 @@ _____________________________
 # Localization in Java
 In Java, a resource bundle is a way to manage locale-specific resources, such as text messages or user interface components, allowing internationalization (i18n) of applications. It enables the application to adapt to different languages and regions by providing locale-specific resources like strings, dates, or numbers in separate files. These bundles are typically stored as property files (.properties) or Java classes.
 
+### 1. ListResourceBundle
+ListResourceBundle is an abstract class that stores key-value pairs in Java code, using arrays. It's primarily used when you want to define resources directly in Java rather than in external properties files. It is implemented as a class with Object[][] to store key-value pairs.
+
+**Key Features:**
+ - Keys and values are stored in Java code.
+ - More flexible than PropertyResourceBundle, as you can define complex objects or even use logic to produce resource values.
+ - Resource keys must be strings, but values can be any Object.
+
 ## Key Concepts:
  - *Base Name:* The common name used for the resource bundle, which is shared by all locale-specific variants.
  - *Locale:* Defines the specific language and region (e.g., en_US for English in the United States).
  - *Properties File:* A text file containing key-value pairs for each locale, such as messages_en_US.properties.
+
+### 2. PropertyResourceBundle
+ - PropertyResourceBundle loads resources from .properties files, which are simple text files containing key-value pairs. This is the more commonly used method for managing resources in Java, especially for localization, as the properties files are external to the code and easy to edit.
+
+## Key Features:
+ - Simple text-based key-value pairs stored in .properties files.
+ - Easy to maintain and modify, especially for external translators or when supporting many locales.
+Only strings can be used as both keys and values in the properties files.
 
 ## How ResourceBundle Works:
 
