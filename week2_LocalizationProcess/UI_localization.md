@@ -82,7 +82,7 @@ Several tools and technologies help developers in localizing UIs efficiently:
 ## Conclusion
 
 UI localization is an essential practice in modern software development, especially for global applications. It requires careful consideration of linguistic, cultural, and technical factors to ensure a seamless user experience across different regions and languages. Proper planning, internationalization, and use of the right tools can greatly simplify the localization process and help deliver a product that resonates with users worldwide.
-...
+
 ----------------------------
 
 # Agile Methodology & Localization Process
