@@ -65,6 +65,13 @@ Several tools and technologies help developers in localizing UIs efficiently:
 - **Localization Libraries/Frameworks**: Popular libraries such as `i18next` (for JavaScript), `gettext` (for C/C++), and `String.format()` (for Java) are often used for handling localized content dynamically.
 - **Automated Translation Services**: Platforms like Google Translate API or Microsoft Translator API can help with automated translations, but human translation is still essential for accuracy and cultural appropriateness.
 - **Translation Management Systems (TMS)**: Tools like Crowdin, Transifex, or PhraseApp streamline the translation process, enabling collaboration between developers, translators, and localizers.
+   - **Example**
+     - Alchemy catalyst:  Alchemy Catalyst is a software localization tool by professional translators that includes translation memory technology which means that the translator does not have to translate sentences repeatedly.
+![Alchemysoftware](https://www.alchemysoftware.com/
+    - SDL Trados: SDL Trados is the market-leading computer-assisted translation software suite, originally developed by the German company Trados GmbH and currently available from language service provider SDL International.
+![SDL Trados](https://www.trados.com/)
+
+  
 
 ## Benefits of UI Localization
 
