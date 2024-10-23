@@ -761,3 +761,6 @@ pipeline {
 - Test the image remotely
 
 > ![hub](/Images/lab.png)
+
+------------------------
+> ![Lecture Demo](https://github.com/ADirin/otp2_vk1_asgn2.git)
