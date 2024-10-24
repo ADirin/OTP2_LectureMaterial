@@ -763,4 +763,5 @@ pipeline {
 > ![hub](/Images/lab.png)
 
 ------------------------
+> ![Lecture Demo1] (https://github.com/ADirin/OTP2_VK1_f2024_Demo1.git)
 > ![Lecture Demo](https://github.com/ADirin/otp2_vk1_asgn2.git)
