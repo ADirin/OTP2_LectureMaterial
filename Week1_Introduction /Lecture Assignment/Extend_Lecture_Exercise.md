@@ -72,7 +72,7 @@ public class LocalizedGreetingTest {
 1. Submit the github repor
 2. Submit the screenshot of the JaCoCo result
 3. Screenshot of the Docker Image from docker desktop
-4. Screenshot of the -labs.play- output
+4. Or the screenshot of the -labs.play- output
 ## Notes
 Encoding: Make sure all .properties files use UTF-8 encoding to prevent character corruption in non-Latin languages.
 Testing: Run tests on a system that supports UTF-8 characters if using a terminal or command line.
