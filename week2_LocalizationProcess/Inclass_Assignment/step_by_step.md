@@ -34,6 +34,12 @@
        <Label fx:id="welcomeText" />
    </VBox>
 ```
+**NOTE** if you are not given the option to generate the methods for the buttons make sure the project package is correct. Docuble check and fix it with package and folder that you application controller is located 
+´´´xml
+<VBox ... fx:controller="org.example.demo0.HelloController">
+
+´´´
+
 3. If you encounter an error for any component, ensure to import the necessary classes.
 
 ![New Project](/Images/jfx3.png)
