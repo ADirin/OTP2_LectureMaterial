@@ -173,3 +173,7 @@ public class HelloController {
 
 ![New Project](/Images/jfx13.JPG)
 
+-------------------------------------------------------------------------------------------------------------------
+### Further Lecture Demo
+
+[Fuel Consumption](https://github.com/ADirin/lectureDemo_vk2_fuelui.git)
