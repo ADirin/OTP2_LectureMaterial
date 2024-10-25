@@ -177,3 +177,226 @@ public class HelloController {
 ### Further Lecture Demo
 
 [Fuel Consumption](https://github.com/ADirin/lectureDemo_vk2_fuelui.git)
+
+# Fuel Consumption Calculator in JavaFX
+
+This document provides step-by-step instructions to create a JavaFX application that calculates fuel consumption in a car. The application supports multiple languages (English, French, Japanese, and Persian).
+
+## Prerequisites
+
+- Java Development Kit (JDK) 21 or later
+- JavaFX SDK
+- An IDE (e.g., IntelliJ IDEA) for Java development
+
+## Project Setup
+
+1. **Create a New JavaFX Project**
+   - Open your IDE (e.g., IntelliJ IDEA).
+   - Create a new Java project.
+   - Ensure you have JavaFX libraries added to your project.
+
+2. **Add JavaFX Libraries**
+   - Add the necessary JavaFX libraries to your project.
+   - Ensure the following libraries are included:
+     - `javafx-controls`
+     - `javafx-fxml`
+     - `javafx-graphics`
+
+3. **Create the Project Structure**
+   - Create a package named `org.example.fuelconsumption`.
+   - Create the following files:
+     - `HelloApplication.java`
+     - `HelloController.java`
+     - `hello-view.fxml`
+     - `messages_en.properties`
+     - `messages_fr.properties`
+     - `messages_ja.properties`
+     - `messages_fa.properties`
+
+## Code Implementation
+
+### 1. Create the Main Application Class
+
+Create a file named `HelloApplication.java`:
+
+```java
+package org.example.fuelconsumption;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class HelloApplication extends Application {
+    @Override
+    public void start(Stage stage) throws Exception {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 300, 300);
+        stage.setTitle("Fuel Consumption Calculator");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+}
+````
+### 2. Create the Controller Class
+Create a file named HelloController.java:
+
+```java
+package org.example.fuelconsumption;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.text.Font;
+
+import java.util.Locale;
+import java.util.MissingResourceException;
+import java.util.ResourceBundle;
+
+public class HelloController {
+
+    @FXML
+    private Label lblDistance;
+
+    @FXML
+    private Label lblFuel;
+
+    @FXML
+    private TextField txtDistance;
+
+    @FXML
+    private TextField txtFuel;
+
+    @FXML
+    private Button btnCalculate;
+
+    @FXML
+    private Label lblResult;
+
+    private ResourceBundle bundle;
+
+    @FXML
+    public void onCalculateClick(ActionEvent actionEvent) {
+        try {
+            double distance = Double.parseDouble(txtDistance.getText());
+            double fuel = Double.parseDouble(txtFuel.getText());
+            double consumption = (fuel / distance) * 100;
+            lblResult.setText(String.format(bundle.getString("result.label"), String.format("%.2f", consumption)));
+        } catch (NumberFormatException e) {
+            lblResult.setText(bundle.getString("invalid.input"));
+        }
+    }
+
+    public void initialize() {
+        setLanguage(new Locale("en"));
+    }
+
+    public void onENClick(ActionEvent actionEvent) {
+        setLanguage(new Locale("en"));
+    }
+
+    public void onFRClick(ActionEvent actionEvent) {
+        setLanguage(new Locale("fr"));
+    }
+
+    public void onJPClick(ActionEvent actionEvent) {
+        setLanguage(new Locale("ja"));
+    }
+
+    public void onIRClick(ActionEvent actionEvent) {
+        setLanguage(new Locale("fa"));
+    }
+
+    private void setLanguage(Locale locale) {
+        try {
+            bundle = ResourceBundle.getBundle("messages", locale);
+            lblDistance.setText(bundle.getString("distance.label"));
+            lblFuel.setText(bundle.getString("fuel.label"));
+            btnCalculate.setText(bundle.getString("calculate.button"));
+            lblResult.setText("");
+        } catch (MissingResourceException e) {
+            e.printStackTrace();
+            lblResult.setText("Error loading language resources.");
+        }
+    }
+}
+
+```
+### 3. Create the FXML Layout
+Create a file named hello-view.fxml:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<VBox prefHeight="300.0" prefWidth="300.0" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fuelconsumption.HelloController">
+  <padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+  </padding>
+  <Label fx:id="lblDistance"/>
+  <TextField fx:id="txtDistance"/>
+  <Label fx:id="lblFuel"/>
+  <TextField fx:id="txtFuel"/>
+  <Button fx:id="btnCalculate" onAction="#onCalculateClick"/>
+  <Label fx:id="lblResult"/>
+  <Button text="EN" onAction="#onENClick"/>
+  <Button text="FR" onAction="#onFRClick"/>
+  <Button text="JP" onAction="#onJPClick"/>
+  <Button text="IR" onAction="#onIRClick"/>
+</VBox>
+
+```
+### 4. Create the Resource Bundles
+Create the following properties files:
+```css
+calculate.button=Calculate
+distance.label=Distance (km)
+fuel.label=Fuel Used (litres)
+result.label=Fuel Consumption: %s L/100km
+invalid.input=Please enter valid numbers.
+
+```
+```css
+calculate.button=Calculer
+distance.label=Distance (km)
+fuel.label=Carburant Utilisé (litres)
+result.label=Consommation de carburant : %s L/100km
+invalid.input=Veuillez entrer des chiffres valides.
+
+```
+```css
+calculate.button=計算する
+distance.label=距離 (km)
+fuel.label=使用した燃料 (リットル)
+result.label=燃料消費量: %s L/100km
+invalid.input=有効な数字を入力してください。
+
+
+```
+```css
+calculate.button=محاسبه
+distance.label=مسافت (کیلومتر)
+fuel.label=سوخت مصرفی (لیتر)
+result.label=مصرف سوخت: %s L/100km
+invalid.input=لطفاً شماره‌های معتبر وارد کنید.
+
+
+```
+## Running the Application
+1. Compile the Project: Ensure all files are saved and compile your project.
+2. Run the Application: Execute the HelloApplication class.
+3. Input Data:
+   - Enter the distance in kilometers and the amount of fuel used in liters.
+   - Click on the "Calculate" button to see the fuel consumption.
+   - Change Language: Click on the language buttons (EN, FR, JP, IR) to switch between languages.
