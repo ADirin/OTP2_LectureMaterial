@@ -44,6 +44,15 @@
 
 ![New Project](/Images/jfx3.png)
 
+________________________
+### Further lecture demos
+
+[Fuel consumption] (https://github.com/ADirin/lectureDemo_vk2_fuelui.git)
+
+
+
+
+
 5. Create methods for each button (onbtnENClick, onbtnFRClick, onbtnJPClick, onbtnIRClick).
 
 ![New Project](/Images/jfx4.png)
