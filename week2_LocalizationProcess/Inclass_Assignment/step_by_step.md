@@ -217,7 +217,12 @@ This document provides step-by-step instructions to create a JavaFX application 
 
 ### 1. Create the Main Application Class
 
+
+
 Create a file named `HelloApplication.java`:
+
+![Fuel Consumption](/Images/fuel.png)
+
 
 ```java
 package org.example.fuelconsumption;
