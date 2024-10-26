@@ -176,7 +176,7 @@ public class HelloController {
 -------------------------------------------------------------------------------------------------------------------
 ### Further Lecture Demo
 
-[Fuel Consumption]((https://github.com/ADirin/Fuel_Concumption_UI_f2024.git))
+[Fuel Consumption](https://github.com/ADirin/Fuel_Concumption_UI_f2024.git)
 
 # Fuel Consumption Calculator in JavaFX
 
