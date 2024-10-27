@@ -194,3 +194,8 @@ Ensure that the localized UI meets any regional legal requirements, such as data
 Following these steps for UI localization ensures that the product is culturally relevant, user-friendly, and compliant with regional standards, making it more appealing and accessible to global audiences.
 
 ---------------------------------
+## Quick Example
+
+- Clone the file below in your machine and follow the modification:
+  - https://github.com/ADirin/LocalDemoEnKoIn.git
+  - Add another UTF-8 langauage(e.g., Persian or Japenese)   
