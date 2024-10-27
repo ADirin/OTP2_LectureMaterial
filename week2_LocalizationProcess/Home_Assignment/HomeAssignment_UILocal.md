@@ -1,4 +1,4 @@
-# Home Assignment (Optional)
+# Home Assignment 
 
 ## Step 1: Create a JavaFX Project
 
