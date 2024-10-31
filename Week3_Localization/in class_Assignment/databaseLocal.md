@@ -61,5 +61,5 @@ Based on the lecture content, consider the following approaches for database loc
 **Deadline**: Submit both the GitHub link and the PDF file to the dedicated folder in Oma by **XXXX X, 2024**.
 
 
-Potential solutions: https://github.com/ADirin/otp3_vk3_homeassignment.git
+
 
