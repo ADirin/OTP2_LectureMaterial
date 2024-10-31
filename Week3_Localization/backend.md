@@ -168,3 +168,32 @@ For date and time, consider storing timestamps in UTC and handling formatting at
 5. Consider Caching Translations: For applications with high read traffic, cache translations to reduce database load.
 6. Test for Special Characters: Different languages introduce special characters that may cause encoding issues. Regularly test data input and output for various locales.
 7. Plan for Non-Translatable Data: Some fields, like numeric codes or IDs, should remain unchanged across locales. Consider marking non-translatable fields clearly in the schema.
+----------------------------------------
+
+# Lecture Demo
+## Field Localization
+```sql
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    name_en VARCHAR(255), -- English name
+    name_fa VARCHAR(255), -- Farsi name
+    name_ja VARCHAR(255), -- Japanese name
+    age INT,
+    salary DECIMAL(10, 2)
+);
+```
+See the code:
+https://github.com/ADirin/field_localization_demonstration.git
+![image](https://github.com/user-attachments/assets/65b31e61-cfc6-420e-a868-6e004ea82987)
+
+```sql
+-- Retrieve employee names in Farsi
+SELECT emp_id, name_fa, age, salary FROM employees;
+
+-- Retrieve employee names in Japanese
+SELECT emp_id, name_ja, age, salary FROM employees;
+![image](https://github.com/user-attachments/assets/f9cbea1e-bfd2-4969-b636-3d141f5f420f)
+
+```
+https://github.com/ADirin/field_localization_demonstration.git![image](https://github.com/user-attachments/assets/17648354-a816-4d56-bae2-397210f86e4d)
+
