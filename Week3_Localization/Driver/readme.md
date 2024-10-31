@@ -1,4 +1,4 @@
-## POM Dependencies
+## POM Dependencies for JDBC driver
 ```xml
 
 <dependencies>
