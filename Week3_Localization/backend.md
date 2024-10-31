@@ -195,4 +195,26 @@ SELECT emp_id, name_ja, age, salary FROM employees;
 
 
 ```
-https://github.com/ADirin/field_localization_demonstration.git
+## Row_loacalization
+
+```sql
+CREATE TABLE employees_row (
+    emp_id INT,
+    language_code VARCHAR(2), -- Language code (e.g., en, fa, ja)
+    name VARCHAR(255), -- Employee name
+    age INT,
+    salary DECIMAL(10, 2),
+    PRIMARY KEY (emp_id, language_code)
+);
+![image](https://github.com/user-attachments/assets/b6af6ac3-24f6-43cf-94d1-da8263a2da69)
+
+
+```
+
+[Java code:] https://github.com/ADirin/row_localization_demonstration.git
+
+Sample Querry
+```sql
+
+
+```
