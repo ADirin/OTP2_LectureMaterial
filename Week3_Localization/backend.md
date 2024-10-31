@@ -184,7 +184,7 @@ CREATE TABLE employees (
 ```
 See the code:
 https://github.com/ADirin/field_localization_demonstration.git
-![image](https://github.com/user-attachments/assets/65b31e61-cfc6-420e-a868-6e004ea82987)
+
 
 ```sql
 -- Retrieve employee names in Farsi
@@ -192,8 +192,7 @@ SELECT emp_id, name_fa, age, salary FROM employees;
 
 -- Retrieve employee names in Japanese
 SELECT emp_id, name_ja, age, salary FROM employees;
-![image](https://github.com/user-attachments/assets/f9cbea1e-bfd2-4969-b636-3d141f5f420f)
+
 
 ```
-https://github.com/ADirin/field_localization_demonstration.git![image](https://github.com/user-attachments/assets/17648354-a816-4d56-bae2-397210f86e4d)
-
+https://github.com/ADirin/field_localization_demonstration.git
