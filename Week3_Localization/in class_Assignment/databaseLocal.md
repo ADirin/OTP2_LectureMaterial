@@ -1,7 +1,7 @@
 
 -------------------------------------------------------------------------
 
-# Home Assignment: Localized Database
+# Lecture Assignment: Localized Database
 
 ## Database Structure
 Establish a database containing a table named `employee` with the following attributes, localized in three different languages (English, Farsi, and Japanese):
