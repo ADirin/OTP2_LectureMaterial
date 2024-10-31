@@ -1,119 +1,65 @@
-# Multilingual Product Viewer Application with Database Localization
 
-This guide details the design of a JavaFX application that demonstrates database localization for a product catalog. The application and its SQLite database will store multilingual data (e.g., English and French) for product details, which the app displays based on the user’s selected language.
+-------------------------------------------------------------------------
 
----
+# Home Assignment: Localized Database
 
-## Application Overview
+## Database Structure
+Establish a database containing a table named `employee` with the following attributes, localized in three different languages (English, Farsi, and Japanese):
 
-The **Multilingual Product Viewer** is a JavaFX-based application that allows users to select a language (English or French) and view product names and descriptions in that language. The JavaFX interface includes the following components:
+```sql
+CREATE TABLE employee_en (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100)
+);
 
-1. **Language Selector**: A dropdown (ComboBox) to let users select their preferred language (e.g., "English" or "French").
-2. **Load Products Button**: A button that, when clicked, fetches product data in the selected language from the database.
-3. **Product Table**: A TableView component that displays product data with the following columns:
-   - **ID**: Unique identifier for the product.
-   - **Name**: The product name in the selected language.
-   - **Description**: The product description in the selected language.
+CREATE TABLE employee_fa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100)
+);
 
-The application fetches product data from an SQLite database based on the language choice, demonstrating two database localization strategies: separate tables for each language and a single table with columns for multiple languages.
+CREATE TABLE employee_ja (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100)
+);
+```
 
----
+## Database Overview
+This example showcases a database structure with separate tables for each language.
 
-## Database Design
+![The UI](/Images/jfxh3_1.png)
 
-The SQLite database, `localizeDB`, contains product data for each supported language. Below are two design approaches for database localization.
+## User Interface for Language Selection
+Develop a user interface that enables users to select their preferred language (English, Farsi, or Japanese). The labels and the save button within the UI should dynamically adapt according to the chosen language, as illustrated below:
 
----
+![The UI](/Images/jfxh3_2.png)
 
-### Approach 1: Separate Tables for Each Language
+## Sample Updates
+The following are sample updates to the tables based on the selected language.
 
-In this approach, each language has its own table with localized product names and descriptions. This setup is beneficial when databases expect frequent additions or edits to language-specific tables, as each table can be managed independently.
+![The UI](/Images/jfxh3_3.png)
 
-**Database Schema for Separate Tables**
+## Localization Options
+Based on the lecture content, consider the following approaches for database localization:
 
-- **Table 1**: `product_en`
-   - **id** (INTEGER, Primary Key): Unique product identifier.
-   - **name** (TEXT): Product name in English.
-   - **description** (TEXT): Product description in English.
+1. **Field Localization**
+2. **Row Localization**
+3. **Table-Based Localization**
+4. **Translation Table**
 
-- **Table 2**: `product_fr`
-   - **id** (INTEGER, Primary Key): Unique product identifier (same as in `product_en` for matching products).
-   - **name** (TEXT): Product name in French.
-   - **description** (TEXT): Product description in French.
+## Task and Submission
+- Implement one or all of the above localization approaches using your programming skills.
+- Use Git to manage your codebase and submit the GitHub link on Oma.
+- Include a brief `README` in the GitHub repository explaining your solution.
+- Additionally, provide screenshots of the localized UIs and the database structure, compiled in a PDF file.
 
-**Example Data in Each Table**
+**Deadline**: Submit both the GitHub link and the PDF file to the dedicated folder in Oma by **XXXX X, 2024**.
 
-- **Table `product_en`**:
 
-| id  | name      | description                      |
-|-----|-----------|----------------------------------|
-| 1   | Laptop    | A portable computer              |
-| 2   | Smartphone| A handheld communication device  |
+Potential solutions: https://github.com/ADirin/otp3_vk3_homeassignment.git
 
-- **Table `product_fr`**:
-
-| id  | name              | description                       |
-|-----|-------------------|-----------------------------------|
-| 1   | Ordinateur portable | Un ordinateur portable         |
-| 2   | Téléphone intelligent | Un appareil de communication portable |
-
-**Advantages**:
-- Separate tables simplify SQL queries for each language.
-- Each language can be managed or updated independently.
-
-**Disadvantages**:
-- Additional management required to synchronize product IDs across tables.
-- Expanding to new languages requires creating new tables for each language.
-
----
-
-### Approach 2: Single Table with Columns for Each Language
-
-This approach stores all language data in a single table. Each product has a single record, with separate columns for the name and description in each language.
-
-**Database Schema for Single Table**
-
-- **Table**: `product`
-   - **id** (INTEGER, Primary Key): Unique product identifier.
-   - **name_en** (TEXT): Product name in English.
-   - **description_en** (TEXT): Product description in English.
-   - **name_fr** (TEXT): Product name in French.
-   - **description_fr** (TEXT): Product description in French.
-
-**Example Data in Single Table**
-
-| id  | name_en      | description_en                      | name_fr              | description_fr                     |
-|-----|--------------|-------------------------------------|----------------------|------------------------------------|
-| 1   | Laptop       | A portable computer                 | Ordinateur portable  | Un ordinateur portable             |
-| 2   | Smartphone   | A handheld communication device     | Téléphone intelligent| Un appareil de communication portable |
-
-**Advantages**:
-- All language data stored in a single table, reducing the need for multiple joins.
-- Simplifies schema management as there is only one table to update when adding new products.
-
-**Disadvantages**:
-- Not as scalable if there are many languages, as the table will grow horizontally with additional columns.
-- Data retrieval requires conditional logic based on language selection.
-
----
-
-## Workflow in the Application
-
-1. **Application Start**:
-   - The JavaFX application starts, displaying the language selection ComboBox, load button, and an empty table.
-
-2. **Language Selection**:
-   - The user selects a language (e.g., "English" or "French") from the ComboBox.
-
-3. **Loading Products**:
-   - When the user clicks **Load Products**, the application retrieves product data from the appropriate table (in Approach 1) or columns (in Approach 2) based on the selected language.
-   - The database query dynamically targets the correct table or columns, depending on the language chosen.
-
-4. **Displaying Data**:
-   - The TableView is populated with products in the selected language, showing `id`, `name`, and `description` fields.
-
----
-
-## Submition 
-
-- Add the github repor link and the screen shots of the interface in oma
