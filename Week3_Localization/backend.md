@@ -173,14 +173,15 @@ For date and time, consider storing timestamps in UTC and handling formatting at
 # Lecture Demo
 ## Field Localization
 ```sql
-CREATE TABLE employees (
+EATE TABLE employees (
     emp_id INT PRIMARY KEY,
-    name_en VARCHAR(255), -- English name
-    name_fa VARCHAR(255), -- Farsi name
-    name_ja VARCHAR(255), -- Japanese name
+    name_en VARCHAR(255) character SET UTF8mb4, -- English name
+    name_fa VARCHAR(255) character SET UTF8MB4, -- Farsi name
+    name_ja VARCHAR(255) character SET UTF8MB4, -- Japanese name
     age INT,
     salary DECIMAL(10, 2)
 );
+
 ```
 See the code:
 https://github.com/ADirin/field_localization_demonstration.git
