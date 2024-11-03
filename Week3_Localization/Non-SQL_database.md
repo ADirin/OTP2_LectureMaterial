@@ -90,3 +90,10 @@ public class MongoDBApp {
 ## Step 6: Run Your Application
 1. In IntelliJ IDEA, right-click on MongoDBApp.java and select Run 'MongoDBApp.main()'.
 2. You should see the output in the console displaying the document(s) you inserted earlier.
+
+
+----------------------------------
+
+## Lecture Example and Demo
+
+https://github.com/ADirin/otp2_mangodb_f2024.git
