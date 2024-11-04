@@ -187,6 +187,9 @@ See the code:
 https://github.com/ADirin/field_localization_demonstration.git
 
 **JDBC Driver** 
+
+  - https://github.com/ADirin/OTP2_LectureMaterial/blob/main/Week3_Localization/JDBC_Driver/instructions.md
+
 ```sql
 -- Retrieve employee names in Farsi
 SELECT emp_id, name_fa, age, salary FROM employees;
