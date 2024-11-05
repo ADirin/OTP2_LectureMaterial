@@ -93,5 +93,64 @@ Incorporating clean code practices into software engineering is crucial for crea
 Mastering clean code principles and utilizing these tools is a foundational skill for any developer aiming to produce high-quality, professional software.
 
 
+-----------------------
+
+# Clean code in theory
+### 3 Introduction (Martin and Feathers, 2009)
+This section introduces key concepts of clean code, including its definition, principles, and contrasts with bad code. It also explores developer experience (DX), defining its role in modern software and connecting it with clean code for a foundational understanding relevant to developers.
+
+
+### 3.1 Good Code and Bad Code
+- **Good Code:** Effective code is clean, understandable, and maintainable, ensuring ease of collaboration and future modifications. Adhering to clean code principles enables developers to produce high-quality code valued for readability and scalability.
+- **Bad Code:** In contrast, bad code, especially "spaghetti code," is disorganized and challenging to maintain, potentially harming projects long-term (Carullo, 2020). Bad code drains productivity, and repeated use or layering of bad code can result in unmanageable codebases.
+
+### 3.2 Cost of Bad Code
+Bad code slows down teams, requiring constant fixes that reduce productivity and lead to financial losses. Without intervention, bad code can demotivate teams and diminish efficiency, even as new hires struggle to navigate a poorly designed system
+
+### 3.3. The Art of Clean Code
+Creating clean code is akin to art: it requires skill, practice, and a disciplined approach. While everyone can recognize clean code, only those with technical knowledge and refined techniques can consistently produce it. Clean code transforms a blank screen into a well-organized, elegant system.
+
+## 4. Clean Code Principles
+
+Clean code principles have been foundational in software development for over a decade, focusing on producing readable, maintainable, and efficient software. This section delves into the core aspects of clean code, analyzing their effects on software efficiency, scalability, and maintainability.
+
+### 4.1 Naming
+
+Naming is critical to clean code, as names appear everywhere (variables, functions, classes, etc.). Effective naming makes code self-explanatory and eliminates the need for additional context. Key principles include:
+
+- **Purpose and Concept**: Names should clearly indicate the purpose and type of value (e.g., "isUser" for a boolean).
+- **Avoiding Disinformation**: Names should be free of misleading terms that could confuse readers.
+- **Distinction**: Names must be meaningful and distinguishable without adding unnecessary characters.
+- **Consistency**: Consistent naming conventions reduce cognitive load and make code easier to navigate.
+
+Good naming requires descriptive skills and cultural alignment, enhancing readability and minimizing future refactoring needs.
+
+### 4.3 Functions
+
+Functions, essential to modularity, should adhere to clean code principles:
+
+- **Make Functions Small**: Functions should ideally be short and structured with proper indentation to promote readability.
+- **Do One Thing**: Functions should focus on a single task. If a function performs multiple tasks, it should be split into smaller functions.
+- **Descriptive Names**: Function names should reflect their task; longer descriptive names are preferred over cryptic short names.
+
+Investing in descriptive names and clear, single-purpose functions greatly benefits code maintainability and readability.
+
+### 4.4 Comments
+
+While comments can be helpful, they are often seen as compensations for unclear code. Ideal code should be self-explanatory, reducing the need for comments. When comments are necessary, they should be concise and accurate. Since code changes frequently, comments may become outdated and misleading over time, so their use should be minimal and thoughtful.
+
+### 4.5 Formatting/Indentation
+
+Proper formatting makes code easier to read and enhances developer experience.
+
+- **Purpose of Formatting**: Formatting aids in readability, helping developers quickly understand and navigate code.
+- **Vertical Formatting**: Code should be structured top-to-bottom like an article, with high-level concepts first and details following. Related concepts should be positioned closely, and variables should be declared near their usage.
+- **Horizontal Formatting**: Lines should be concise, ideally not exceeding standard width recommendations, enhancing readability across various devices.
+
+Well-organized formatting and indentation reduce cognitive load and improve the overall quality of code.
+
+---
+
+By following these clean code principles, developers create code that is intuitive, maintainable, and efficient, promoting long-term productivity and collaboration.
 
 
