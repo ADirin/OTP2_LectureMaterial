@@ -31,9 +31,51 @@ In global applications, localization improves user experience by presenting data
 
 ![*Example of field localization*] (https://github.com/ADirin/field_localization_demonstration)
 
+```sql
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    name_en VARCHAR(255), -- English name
+    name_fa VARCHAR(255), -- Farsi name
+    name_ja VARCHAR(255), -- Japanese name
+    age INT,
+    salary DECIMAL(10, 2)
+);
+
+
+
+```
+
 **Approach 2: Separate Tables for Each Language**
 
 In this approach, each language has its own table, which is queried based on the user’s language preference.
+
+## Example:
+https://github.com/ADirin/table_localization_demonstration.git
+
+```sql
+CREATE TABLE employees_en (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    salary DECIMAL(10, 2)
+);
+
+CREATE TABLE employees_fa (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    salary DECIMAL(10, 2)
+);
+
+CREATE TABLE employees_ja (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    salary DECIMAL(10, 2)
+);
+
+
+```
 
 **Pros:**
   -- Simplifies structure by separating each language completely.
@@ -45,6 +87,23 @@ In this approach, each language has its own table, which is queried based on the
 **Approach 3: Columns for Each Language**
 
 A single table contains additional columns for each language, with each column holding data in a specific language.
+
+## Example:
+
+https://github.com/ADirin/row_localization_demonstration.git
+
+```sql
+CREATE TABLE employees (
+    emp_id INT,
+    language_code VARCHAR(2), -- Language code (e.g., en, fa, ja)
+    name VARCHAR(255), -- Employee name
+    age INT,
+    salary DECIMAL(10, 2),
+    PRIMARY KEY (emp_id, language_code)
+);
+
+
+```
 
 **Pros:**
 
