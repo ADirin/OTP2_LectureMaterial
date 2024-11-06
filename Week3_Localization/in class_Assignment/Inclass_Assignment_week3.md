@@ -14,12 +14,12 @@ fuel.label=Fuel (liters):
 calculate.button=Calculate
 result.label=Fuel consumption: %s L/100 km
 invalid.input=Invalid input. Please enter valid numbers.
-
 ```
 
 ## Submission:
   1. Submit the screenshots of the application and the github repo in Oma.
   2. Ensur that the title application is set to be 'Your Name'.
+
      ```java
-    stage.setTitle("Amir Dirin!");
+      stage.setTitle("Amir Dirin!");
      ```  
