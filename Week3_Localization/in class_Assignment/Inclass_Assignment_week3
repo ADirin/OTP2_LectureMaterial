@@ -5,4 +5,4 @@ In this task, you will be working on an application that calculates the fuel con
 The application should support multiple languages, allowing the user to switch between them (English, French, Japanese, and Persian). 
 The user should be able to enter the distance traveled (in kilometers) and the fuel consumed (in liters), and the system will display the fuel consumption in the correct format, localized for the selected language.
 
-> ![Sample UI](Images/lectureAssignment2.jpg)
+> [Sample UI](/Images/lectureAssignment2.jpg)
