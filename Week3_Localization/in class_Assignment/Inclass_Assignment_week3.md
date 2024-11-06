@@ -6,3 +6,16 @@ The application should support multiple languages, allowing the user to switch b
 The user should be able to enter the distance traveled (in kilometers) and the fuel consumed (in liters), and the system will display the fuel consumption in the correct format, localized for the selected language.
 
 > ![Sample UI](/Images/lectureAssignment2.jpg)
+
+**Example of message_en_properties:**
+```css
+distance.label=Distance (km):
+fuel.label=Fuel (liters):
+calculate.button=Calculate
+result.label=Fuel consumption: %s L/100 km
+invalid.input=Invalid input. Please enter valid numbers.
+
+```
+
+## Submission:
+- Submit the screenshots of the application, ensuring that the title is 'Your Name' in OMA, along with the link to the repository
