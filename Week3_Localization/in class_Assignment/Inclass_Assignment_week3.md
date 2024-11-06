@@ -18,4 +18,8 @@ invalid.input=Invalid input. Please enter valid numbers.
 ```
 
 ## Submission:
-- Submit the screenshots of the application, ensuring that the title is 'Your Name' in OMA, along with the link to the repository
+  1. Submit the screenshots of the application and the github repo in Oma.
+  2. Ensur that the title application is set to be 'Your Name'.
+     ```java
+    stage.setTitle("Amir Dirin!");
+     ```  
