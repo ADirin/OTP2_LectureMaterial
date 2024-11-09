@@ -228,73 +228,77 @@ These principles are integrated into the requirements of ISO 9001 to create a st
 --------------------
 # Quality Improvement: The Wheel of Six Sigma
 
-The Wheel of Six Sigma is a systematic approach to improving quality by minimizing defects and variations in processes. Six Sigma focuses on reducing errors and improving consistency, aiming for a defect rate of less than 3.4 defects per million opportunities (DPMO). This methodology uses a structured, data-driven approach to problem-solving, commonly represented by the **DMAIC cycle**: Define, Measure, Analyze, Improve, and Control.
+The Wheel of Six Sigma is a systematic approach to improving quality by minimizing defects and variations in processes. Six Sigma focuses on reducing errors and improving consistency, aiming for a defect rate of less than 3.4 defects per million opportunities (DPMO). This modified approach to Six Sigma reframes the DMAIC cycle into six essential steps: **Visualize, Commit, Prioritize, Characterize, Improve, and Achieve**. Each stage plays a unique role in identifying and implementing quality improvements to enhance process efficiency, reduce defects, and meet customer expectations.
 
 ---
 
-## The DMAIC Cycle: Steps in the Wheel of Six Sigma
+## 1. **Visualize**
 
-### 1. **Define** 
-   - **Objective**: Identify the problem or process improvement opportunity and define it clearly in terms of customer requirements and project goals.
+   - **Objective**: Create a clear vision of the problem or opportunity for improvement. This stage involves identifying the process area or product that requires quality enhancement and defining the scope.
    - **Key Activities**:
-     - **Project Charter**: Develop a project charter that defines the scope, objectives, and stakeholders.
-     - **Voice of the Customer (VoC)**: Gather and analyze customer feedback to identify quality needs.
-     - **Define Process Boundaries**: Use tools like SIPOC (Suppliers, Inputs, Process, Outputs, Customers) to outline process boundaries.
-   - **Outcome**: A clear, measurable problem statement and a defined project scope that aligns with customer needs and business goals.
+     - **Process Mapping**: Map out the existing process to visualize current workflows, inputs, and outputs.
+     - **Set Goals**: Define high-level goals based on customer needs and organizational objectives.
+     - **Gather Initial Data**: Collect baseline data to understand the process’s current state.
+   - **Outcome**: A well-defined vision of what needs improvement, supported by initial data and a clear understanding of customer expectations.
 
-### 2. **Measure**
-   - **Objective**: Collect data on the current process to understand baseline performance and identify root causes of variations.
-   - **Key Activities**:
-     - **Define Metrics**: Establish metrics that will be used to assess process performance (e.g., defect rate, cycle time).
-     - **Data Collection**: Collect relevant data on the current state of the process.
-     - **Baseline Measurement**: Use statistical tools to establish a baseline for process capability.
-   - **Outcome**: A clear understanding of current process performance, which serves as a benchmark for improvements.
+## 2. **Commit**
 
-### 3. **Analyze**
-   - **Objective**: Identify the root causes of defects or issues within the process by analyzing collected data.
+   - **Objective**: Obtain commitment from stakeholders and the team to actively engage in the improvement process. Aligning on objectives ensures everyone is invested in achieving quality goals.
    - **Key Activities**:
-     - **Root Cause Analysis**: Use tools such as Fishbone Diagrams (Ishikawa), Pareto Analysis, and 5 Whys to identify causes of defects.
-     - **Hypothesis Testing**: Test hypotheses about potential root causes to validate which factors have the greatest impact on quality.
-     - **Process Mapping**: Visualize the process flow to identify any inefficiencies or areas where defects are introduced.
-   - **Outcome**: A validated list of root causes and contributing factors that impact process quality.
+     - **Stakeholder Buy-In**: Present the problem, proposed goals, and potential impact to gain stakeholder commitment.
+     - **Assemble the Team**: Form a cross-functional team that will be responsible for implementing improvements.
+     - **Define Roles and Responsibilities**: Assign specific roles to team members to ensure accountability.
+   - **Outcome**: A committed, motivated team aligned on project objectives and responsibilities.
 
-### 4. **Improve**
-   - **Objective**: Develop and implement solutions to address root causes and improve process performance.
-   - **Key Activities**:
-     - **Brainstorm Solutions**: Identify potential improvements or solutions to address root causes.
-     - **Pilot Testing**: Test proposed improvements on a small scale to verify their effectiveness before full implementation.
-     - **Implementation Plan**: Develop a step-by-step plan for full-scale implementation of improvements.
-     - **Risk Assessment**: Evaluate potential risks and develop contingency plans.
-   - **Outcome**: Successfully implemented improvements that reduce defects and enhance process efficiency.
+## 3. **Prioritize**
 
-### 5. **Control**
-   - **Objective**: Maintain and sustain the improvements by monitoring process performance and implementing controls to prevent regression.
+   - **Objective**: Identify and prioritize specific areas of improvement. This phase involves breaking down the process, identifying key pain points, and prioritizing them based on potential impact.
    - **Key Activities**:
-     - **Develop Control Plans**: Create control charts and process monitoring plans to ensure the process remains within specified limits.
-     - **Standardize Procedures**: Document and standardize new procedures and workflows to prevent a return to old practices.
-     - **Employee Training**: Train team members on new processes and controls to ensure consistent application.
-     - **Periodic Audits**: Conduct regular audits to verify process stability and address any deviations.
-   - **Outcome**: A controlled, sustainable process that consistently meets quality standards and customer expectations.
+     - **Impact Analysis**: Use tools such as Pareto Analysis to identify the areas with the most significant impact on quality.
+     - **Root Cause Identification**: Start identifying possible causes of defects or issues within the prioritized areas.
+     - **Set Priorities**: Rank issues based on severity, frequency, and impact on overall process quality.
+   - **Outcome**: A prioritized list of improvement areas, focused on the most critical pain points affecting quality.
+
+## 4. **Characterize**
+
+   - **Objective**: Deeply analyze the prioritized issues to understand the root causes and define them in measurable terms.
+   - **Key Activities**:
+     - **Root Cause Analysis**: Conduct in-depth analyses using tools like Fishbone Diagrams and 5 Whys to identify underlying causes.
+     - **Measurement and Data Collection**: Collect and analyze data specific to each prioritized issue to quantify the problems.
+     - **Process Characterization**: Clearly define each problem’s characteristics, identifying metrics to measure improvements.
+   - **Outcome**: A well-characterized set of issues with measurable root causes and performance baselines, ready for targeted improvement efforts.
+
+## 5. **Improve**
+
+   - **Objective**: Develop and implement solutions that address the root causes identified in the Characterize phase. Test solutions on a small scale before full implementation.
+   - **Key Activities**:
+     - **Solution Design**: Brainstorm and develop solutions that will address the root causes.
+     - **Pilot Testing**: Test improvements on a small scale to ensure they are effective without disrupting the entire process.
+     - **Implementation Plan**: Create a plan for scaling successful solutions across the organization or process.
+     - **Risk Assessment**: Anticipate potential risks and have contingency plans in place.
+   - **Outcome**: Implemented improvements that address root causes, verified through pilot tests, and ready for full integration.
+
+## 6. **Achieve**
+
+   - **Objective**: Establish measures to sustain improvements, track performance, and ensure the benefits are maintained over time.
+   - **Key Activities**:
+     - **Control Plan**: Implement a control plan with regular monitoring to track performance and maintain improvements.
+     - **Standardize Procedures**: Update and standardize operating procedures to reflect the new process changes.
+     - **Training**: Train team members and stakeholders on the updated process to ensure consistent application.
+     - **Performance Audits**: Conduct periodic audits to verify that improvements are sustained.
+   - **Outcome**: A stable, improved process that consistently meets quality standards and achieves organizational goals.
 
 ---
 
-## Tools Commonly Used in the Six Sigma Wheel
+## Benefits of the Modified Wheel of Six Sigma
 
-- **Define Phase**: Project Charter, SIPOC Diagrams, Voice of the Customer Analysis.
-- **Measure Phase**: Process Mapping, Data Collection Sheets, Descriptive Statistics.
-- **Analyze Phase**: Fishbone Diagrams, Pareto Charts, Hypothesis Testing, 5 Whys.
-- **Improve Phase**: Brainstorming, Pilot Testing, Failure Mode and Effects Analysis (FMEA).
-- **Control Phase**: Control Charts, Process Control Plans, Standard Operating Procedures (SOPs).
+1. **Focused Problem Identification**: The structured approach helps identify and focus on specific areas for improvement, resulting in more impactful quality gains.
+2. **Increased Team Buy-In**: The Commit phase ensures that team members are aligned and motivated, which enhances collaboration and accountability.
+3. **Data-Driven Improvements**: Each stage relies on data collection and analysis, leading to well-informed decisions and targeted actions.
+4. **Sustainable Results**: With controls in place during the Achieve phase, improvements are more likely to be maintained over time, delivering long-term benefits.
+5. **Alignment with Organizational Goals**: This approach aligns quality improvements with customer needs and business objectives, ensuring meaningful and valuable outcomes.
 
 ---
-
-## Benefits of the Six Sigma Wheel
-
-1. **Reduction of Defects**: By focusing on root causes and minimizing variations, Six Sigma helps organizations reduce defect rates and improve product quality.
-2. **Enhanced Customer Satisfaction**: Addressing quality issues that impact customer satisfaction directly leads to more reliable and valuable products.
-3. **Process Efficiency**: Identifying and eliminating unnecessary steps reduces cycle times and increases operational efficiency.
-4. **Data-Driven Decision Making**: Six Sigma’s reliance on data helps organizations make informed decisions, minimizing subjective or intuition-based choices.
-5. **Sustainable Improvements**: The Control phase ensures that improvements are maintained over time, preventing regression to lower quality levels.
 
 ---
 
