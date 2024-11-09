@@ -156,4 +156,136 @@ Functional and Non-Functional Testing play essential roles in ensuring software 
 
 Understanding and implementing both types of testing effectively helps in delivering robust, reliable, and user-friendly software.
 
+--------------------------------------
+## Sample of Test Cases
+
+
+# Test Case Template
+
+Software Engineering  
+**Dr Ghazy Assassa**
+
+---
+
+## Test Case Template (Doc:T_01)
+
+- **Test Case #**:
+- **Test Case Name**:
+- **Page**: 1 of ..
+
+### Details
+- **System**:
+- **Subsystem**:
+- **Designed by**:
+- **Design Date**:
+- **Executed by**:
+- **Execution Date**:
+
+### Short Description
+
+---
+
+### Pre-conditions
+
+---
+
+### Steps
+
+| Step | Action                  | Expected System Response              | Pass/Fail | Comment |
+|------|--------------------------|---------------------------------------|-----------|---------|
+| 1    |                          |                                       |           |         |
+| 2    |                          |                                       |           |         |
+
+---
+
+### Post-conditions
+
+---
+
+---
+
+# Test Case Example 1 (Simple Test)
+
+- **Test Case #**: 2.2
+- **Test Case Name**: Change PIN
+- **Page**: 1 of 1
+
+### Details
+- **System**: ATM
+- **Subsystem**: PIN
+- **Designed by**: ABC
+- **Design Date**: 28/11/2004
+- **Executed by**:
+- **Execution Date**:
+
+### Short Description
+Test the ATM Change PIN service.
+
+### Pre-conditions
+- The user has a valid ATM card.
+- The user has accessed the ATM by placing their ATM card in the machine.
+- The current PIN is `1234`.
+- The system displays the main menu.
+
+### Steps
+
+| Step | Action                     | Expected System Response                                                | Pass/Fail | Comment |
+|------|-----------------------------|-------------------------------------------------------------------------|-----------|---------|
+| 1    | Click the 'Change PIN' button | The system displays a message asking the user to enter the new PIN      |           |         |
+| 2    | Enter '5555'                | The system displays a message asking the user to confirm (re-enter) the new PIN |         |
+| 3    | Re-enter '5555'             | The system displays a message of successful operation. The system asks the user if they want to perform other operations |  |
+| 4    | Click 'YES' button          | The system displays the main menu                                      |           |         |
+| 5    | Check post-condition 1      |                                                                         |           |         |
+
+### Post-conditions
+1. The new PIN `5555` is saved in the database.
+
+---
+
+# Test Case Example 2 (Complex Test)
+
+- **Test Case #**: 2.3
+- **Test Case Name**: Change PIN
+- **Page**: 1 of 1
+
+### Details
+- **System**: ATM
+- **Subsystem**: PIN
+- **Designed by**: ABC
+- **Design Date**: 28/11/2004
+- **Executed by**:
+- **Execution Date**:
+
+### Short Description
+Test the ATM Change PIN service.
+
+### Pre-conditions
+- The user has a valid ATM card.
+- The user has accessed the ATM by placing their ATM card in the machine.
+- The current PIN is `1234`.
+- The system displays the main menu.
+
+### Steps
+
+| Step | Action                      | Expected System Response                                                | Pass/Fail | Comment |
+|------|------------------------------|-------------------------------------------------------------------------|-----------|---------|
+| 1    | Click the 'Change PIN' button | The system displays a message asking the user to enter the new PIN      |           |         |
+| 2    | Enter '5555'                 | The system displays a message asking the user to confirm (re-enter) the new PIN |   |
+| 3    | Re-enter '5555'              | The system displays a message of successful operation. The system asks the user if they want to perform other operations | |
+| 4    | Click 'YES' button           | The system displays the main menu                                      |           |         |
+| 5    | Check post-condition 1       |                                                                         |           |         |
+| 6    | Repeat steps 1,2,3 using another PIN say '6666' and click 'NO' button | The system exits and displays a greeting message asking the user to place their ATM card in the machine | |
+| 7    | Check post-condition 2       |                                                                         |           |         |
+| 8    | Repeat steps 1,2, using another PIN say '7777'                    | The system displays a message asking the user to confirm (re-enter) the new PIN | |
+| 9    | Enter a wrong confirmation (say ‘9876’) | The system displays a message of unsuccessful operation and asks the user to confirm the correct PIN | |
+| 10   | Re-enter ‘7777’              | The system displays a message of successful operation. The system asks the user if they want to perform other operations | |
+
+### Post-conditions
+1. The new PIN `5555` is saved in the database.
+2. The new PIN `6666` is saved in the database.
+3. The new PIN `7777` is saved in the database.
+
+### Notes
+- Test happy path.
+- Test failure condition (step 9).
 
