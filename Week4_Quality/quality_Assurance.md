@@ -230,6 +230,8 @@ These principles are integrated into the requirements of ISO 9001 to create a st
 
 The Wheel of Six Sigma is a systematic approach to improving quality by minimizing defects and variations in processes. Six Sigma focuses on reducing errors and improving consistency, aiming for a defect rate of less than 3.4 defects per million opportunities (DPMO). This modified approach to Six Sigma reframes the DMAIC cycle into six essential steps: **Visualize, Commit, Prioritize, Characterize, Improve, and Achieve**. Each stage plays a unique role in identifying and implementing quality improvements to enhance process efficiency, reduce defects, and meet customer expectations.
 
+> ![6 Sigman](/Images/6sigma.jpg)
+
 ---
 
 ## 1. **Visualize**
