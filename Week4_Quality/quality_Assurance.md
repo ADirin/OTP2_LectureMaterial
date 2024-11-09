@@ -149,10 +149,48 @@ There are many tools available to assist with SQA tasks:
 
 Several international standards guide SQA practices:
 
-- **ISO/IEC 25010**: A quality model that provides a framework for evaluating software quality.
-- **ISO/IEC 12207**: Standard for software lifecycle processes, including SQA.
-- **IEEE 730**: A standard specifically for software quality assurance processes.
-- **CMMI**: The Capability Maturity Model Integration provides guidelines to improve software processes and quality.
+### ISO/IEC 25010: 
+ - **Overview**: This international standard defines a model for software quality characteristics. It is commonly used to assess and ensure quality across different aspects of software products.
+   - **Key Quality Characteristics**:
+     - **Functionality**: The degree to which the software provides the necessary functions to meet user needs.
+     - **Reliability**: The ability of the software to perform its functions under specific conditions.
+     - **Usability**: How easy and efficient the software is for users to understand and use.
+     - **Efficiency**: The software's performance in relation to the resources used, such as processing power and memory.
+     - **Maintainability**: The ease with which the software can be modified for corrections, improvements, or adaptation.
+     - **Portability**: The ability to transfer the software to different environments.
+
+### ISO/IEC 12207:
+ - **Overview**: This standard provides a framework for the software development lifecycle (SDLC), covering all phases from initial concept to decommissioning.
+   - **Key Processes**:
+     - **Acquisition and Supply**: Defines requirements for acquiring or supplying software.
+     - **Development**: Outlines processes for software design, coding, and testing.
+     - **Operation and Maintenance**: Provides guidance on deploying, operating, and maintaining software in production.
+     - **Disposal**: Addresses end-of-life management, including decommissioning and data removal.
+
+### IEEE 730:
+ - **Overview**: IEEE 730 establishes the requirements for a Software Quality Assurance Plan, detailing the methods and practices used to ensure quality.
+   - **Components of SQAP**:
+     - **Responsibilities**: Identifies the team and individual roles involved in quality assurance.
+     - **Evaluation**: Details criteria and methods for software evaluation, including reviews, audits, and tests.
+     - **Documentation**: Outlines the required documentation for the quality assurance process.
+     - **Metrics and Reporting**: Describes metrics to be used to measure quality and the reporting process.
+
+### 4. **ISO/IEC 27001 - Information Security Management**
+   - **Overview**: While not specific to software, ISO/IEC 27001 is crucial for software that handles sensitive data. It sets standards for managing information security risks.
+   - **Key Elements**:
+     - **Risk Assessment**: Identifies potential security risks in software and the development environment.
+     - **Access Control**: Sets guidelines for controlling access to data and software systems.
+     - **Incident Management**: Defines procedures for responding to and managing security incidents.
+     - **Continuous Improvement**: Requires ongoing monitoring and improvement of security practices.
+
+### 5. **CMMI (Capability Maturity Model Integration)**
+   - **Overview**: CMMI is a process-level improvement model that helps organizations improve their software development processes. It is widely used in software development organizations to enhance process quality and efficiency.
+   - **Maturity Levels**:
+     - **Level 1 - Initial**: Processes are ad hoc and chaotic.
+     - **Level 2 - Managed**: Basic project management processes are established.
+     - **Level 3 - Defined**: Processes are well-defined and standardized.
+     - **Level 4 - Quantitatively Managed**: Processes are measured and controlled.
+     - **Level 5 - Optimizing**: Focus on continuous process improvement.
 
 ## Conclusion
 
