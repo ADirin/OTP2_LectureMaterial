@@ -22,6 +22,52 @@ Software Quality Assurance (SQA) is a set of activities aimed at ensuring softwa
 ## Introduction to SQA
 
 Software Quality Assurance is an umbrella term for activities focused on enhancing the quality and reliability of software products. SQA is an integral part of the software development process and is applied at every phase to prevent errors, reduce risks, and ensure that the software product meets specified requirements.
+- A product is considered "high quality" if it:
+  - Fulfills the requirements specified by the customer.
+  - Operates reliably within the defined parameters.
+  - Provides value and satisfaction to the user.
+    
+In simple terms, quality means delivering a product that *does what it’s supposed to do*, meets the defined specifications, and fulfills the user's needs.
+## Example Scenario: Challenges in Achieving Quality
+
+**Scenario**  
+Imagine a software development organization is hired to create an e-commerce platform. The customer specifies basic requirements, such as:
+   - A product catalog.
+   - A simple, secure checkout.
+   - User accounts.
+   - Mobile-friendly design.
+
+The development team, eager to add value, includes extra features like advanced recommendations and an analytics dashboard—features not in the original specifications. These additions lead to increased development costs, missed deadlines, and resource strain.
+
+---
+
+### What Went Wrong?
+
+1. **Unaligned Requirements**  
+   - The added features went beyond what the customer specified or prioritized, increasing costs and complexity.
+   - The product was developed based on assumptions of "what the customer might like" rather than on clear requirements.
+
+2. **Perception of Quality**  
+   - Although the product may technically meet specifications (and even surpass them), the customer is dissatisfied.
+   - The customer did not see the additional features as essential and was unhappy with the delays and budget overruns.
+
+3. **Quality Attributes like Maintainability**  
+   - Certain quality attributes, such as maintainability (how easily a product can be updated or fixed), can be challenging to define precisely. While the development team may have focused on creating advanced features, they may have overlooked maintaining simplicity, which could impact future updates or maintenance.
+
+---
+
+## Key Takeaways on Quality
+
+1. **Quality Equals Meeting Agreed-Upon Specifications**  
+   - Quality is not about adding extras; it’s about meeting or exceeding the customer’s specified needs without unnecessary features or complexity.
+
+2. **Involve the Customer in Defining Quality**  
+   - Quality is often perceived, not just technical. Even if a product meets all technical specs, it can feel low-quality to the customer if their needs weren’t adequately addressed or if they weren't involved in defining "quality" features.
+
+3. **Clear Definition of Quality Attributes**  
+   - Some quality attributes, like usability or maintainability, are subjective and hard to quantify. Regular communication with the customer can help in defining and prioritizing these attributes, so the final product aligns with their expectations.
+
+---
 
 ## Terminologies
 
