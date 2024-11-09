@@ -149,6 +149,21 @@ There are many tools available to assist with SQA tasks:
 
 Several international standards guide SQA practices:
 
+### Key ISO 9001 Principles and Their Application
+
+ISO 9001 is based on several core principles that guide its application in manufacturing and development processes:
+
+1. **Customer Focus**
+2. **Leadership**
+3. **Engagement of People**
+4. **Process Approach**
+5. **Improvement**
+6. **Evidence-Based Decision Making**
+7. **Relationship Management**
+
+These principles are integrated into the requirements of ISO 9001 to create a structured quality management system that organizations can apply to both manufacturing and development environments.
+
+
 ### ISO/IEC 25010: 
  - **Overview**: This international standard defines a model for software quality characteristics. It is commonly used to assess and ensure quality across different aspects of software products.
    - **Key Quality Characteristics**:
