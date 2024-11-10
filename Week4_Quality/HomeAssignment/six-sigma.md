@@ -3,6 +3,8 @@
 ### Objective:
 In this exercise, you’ll apply Six Sigma principles to analyze, identify, and resolve issues in **your software engineering project**. The goal is to assess the current state of your project, identify defects, and work to resolve these defects within the next three weeks.
 
+> ![Six Sigma](/Images/6sigma.jpg)
+
 ### Scenario (EXAMPLE):
 Let’s consider a software project for a **car rental application**. The main functionalities include searching for available cars, booking rentals, managing rental records, and supporting various languages. However, the product is only partially complete, with several features like **UI localization** and **database localization for Japanese** still missing.
 
