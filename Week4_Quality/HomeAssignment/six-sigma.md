@@ -8,6 +8,51 @@ In this exercise, you’ll apply Six Sigma principles to analyze, identify, and 
 ### Scenario (EXAMPLE):
 Let’s consider a software project for a **car rental application**. The main functionalities include searching for available cars, booking rentals, managing rental records, and supporting various languages. However, the product is only partially complete, with several features like **UI localization** and **database localization for Japanese** still missing.
 
+```mermaid
+graph TD
+    D[Define Phase] --> M[Measure Phase]
+    M --> A[Analyze Phase]
+    A --> I[Improve Phase]
+    I --> C[Control Phase]
+
+    subgraph Define
+        D1[Identify problem]
+        D2[Define project goals]
+        D3[Define scope and objectives]
+        D --> D1 --> D2 --> D3
+    end
+
+    subgraph Measure
+        M1[Map the current process]
+        M2[Collect data on current performance]
+        M3[Establish baseline performance metrics]
+        M --> M1 --> M2 --> M3
+    end
+
+    subgraph Analyze
+        A1[Identify root causes of variation]
+        A2[Analyze data patterns]
+        A3[Prioritize improvement opportunities]
+        A --> A1 --> A2 --> A3
+    end
+
+    subgraph Improve
+        I1[Develop improvement solutions]
+        I2[Test and implement solutions]
+        I3[Measure results]
+        I --> I1 --> I2 --> I3
+    end
+
+    subgraph Control
+        C1[Establish process control plan]
+        C2[Monitor improved process]
+        C3[Ensure long-term sustainability]
+        C --> C1 --> C2 --> C3
+    end
+
+
+```
+
 ---
 
 ## Steps
