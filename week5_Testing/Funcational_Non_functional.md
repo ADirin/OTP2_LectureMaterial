@@ -38,6 +38,10 @@ Functional Testing is a type of software testing that ensures each function of a
 
  > ![Integration Test](/Images/integrationTest1.JPG)
 
+  - In the figure above M8, M5, M1 and Main are tested at the Unit Level
+  - Re-integration level testing, 1, 2, 3
+  - Testing Environment: Developer Interface
+
 3. **System Testing**
    - **Description**: Testing the complete and integrated software system.
    - **Objective**: Validate that the system meets all specified requirements.
