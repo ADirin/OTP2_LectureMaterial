@@ -238,9 +238,59 @@ The final stage is to evaluate the test results, analyze the root causes of defe
 - **Analyze the root causes of defects and identify necessary actions**: Examine defect patterns and determine actions to improve product quality.
 - **Write a Test Report**: Document the testing results, including details of defects found, the testing environment, and any recommendations for improvement.
 
----
 
 These four steps form a comprehensive approach to software testing, ensuring a structured, systematic, and thorough process that enhances software quality and reliability.
+
+-----
+
+
+# Testing Types and Their Roles in the Testing Pyramid
+
+> ![Test Pyramid](/Images/testPyramid.jpg)
+
+## Unit Tests
+
+- **Purpose**: Test individual functions or methods to ensure they work correctly in isolation.
+- **Proportion**: These should be the **majority** of your tests (60-70%).
+- **Characteristics**:
+  - Fast to execute.
+  - Low cost to maintain.
+  - Provide quick feedback on code changes.
+- **Tools Examples**: JUnit, NUnit, pytest.
+
+---
+
+## Integration Tests
+
+- **Purpose**: Test interactions between components or modules to verify that they work together as expected.
+- **Proportion**: Make up a **smaller portion** of tests (20-30%).
+- **Characteristics**:
+  - Slower than unit tests.
+  - Helps catch issues at the interaction level.
+- **Tools Examples**: Postman (for API testing), REST Assured, Selenium (for component interaction).
+
+---
+
+## End-to-End (E2E) Tests
+
+- **Purpose**: Validate the entire application flow from start to finish to ensure it meets the user's requirements.
+- **Proportion**: These should be the **fewest tests** in your suite (5-10%).
+- **Characteristics**:
+  - Slowest to execute and costly to maintain.
+  - Simulate real user scenarios.
+- **Tools Examples**: Cypress, Selenium, Playwright.
+
+---
+
+## Why Follow the Testing Pyramid?
+
+- **Efficiency**: Unit tests provide quick feedback on changes and are less fragile compared to E2E tests.
+- **Cost-Effective**: Maintaining a balanced distribution reduces the costs and complexity associated with slow and brittle tests.
+- **Reliability**: Unit and integration tests form a solid foundation, catching most bugs early, with E2E tests as the final check on overall user functionality.
+
+---
+
+Following the Testing Pyramid helps create a **robust and maintainable test suite** that optimizes for both quick feedback and comprehensive verification.
 
 
 
