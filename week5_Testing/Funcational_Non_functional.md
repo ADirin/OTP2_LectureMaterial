@@ -36,7 +36,7 @@ Functional Testing is a type of software testing that ensures each function of a
    - **Objective**: Ensure modules work together as expected.
    - **Example**: Testing how the login module interacts with the user dashboard.
 
- > ![Unit Test](/Images/integrationTest1.jpg)
+ > ![Integration Test](/Images/integrationTest1.JPG)
 
 3. **System Testing**
    - **Description**: Testing the complete and integrated software system.
