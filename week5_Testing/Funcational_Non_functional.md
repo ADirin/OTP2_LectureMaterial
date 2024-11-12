@@ -63,6 +63,8 @@ Non-Functional Testing evaluates the performance, usability, reliability, and ot
    - **Description**: Measures how the system performs under various conditions.
    - **Objective**: Ensure the system is responsive, stable, and efficient.
    - **Example**: Testing how quickly a web application responds under heavy traffic.
+   
+ > ![Unit Test](/Images/perfomanceTest1.jpg)
 
 2. **Load Testing**
    - **Description**: Testing the system’s performance under expected loads.
