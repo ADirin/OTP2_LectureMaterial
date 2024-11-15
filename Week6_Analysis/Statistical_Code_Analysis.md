@@ -83,6 +83,9 @@ Statistical code analysis involves the application of statistical methods to mea
 
 ## Tools for Statistical Code Analysis
 
+
+> ![Sonar Lint](/Images/checkStyle.jpg)
+
 1. **SonarQube**
    - **Purpose**: Continuous inspection of code quality.
    - **Features**: Measures code quality metrics, detects code smells, and tracks technical debt.
