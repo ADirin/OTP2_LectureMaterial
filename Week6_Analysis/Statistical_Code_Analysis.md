@@ -28,6 +28,8 @@ Statistical code analysis involves the application of statistical methods to mea
 - Provide documentations 
 - It increases the safety and quality  (e.g., identify NULL pointers)
 
+> ![Sonar Lint](/Image/sonarLint1.jpg)
+
 
 ---
 
