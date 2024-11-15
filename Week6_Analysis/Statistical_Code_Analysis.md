@@ -22,6 +22,12 @@ Statistical code analysis involves the application of statistical methods to mea
 - **Automated Insights**: Provides automated metrics that facilitate quick decision-making.
 - **Early Detection**: Helps identify problems early in the development cycle, reducing long-term costs.
 - **Improved Maintainability**: Enhances code readability and maintainability through consistent coding practices.
+- Applying company styles such as indents, spaces, tabs, and standards
+- Produce metrics indicative of code quality 
+- Detect errors in boundary conditions, security, logic, and others
+- Provide documentations 
+- It increases the safety and quality  (e.g., identify NULL pointers)
+
 
 ---
 
