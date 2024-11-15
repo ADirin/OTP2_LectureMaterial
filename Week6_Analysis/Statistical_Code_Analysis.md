@@ -113,6 +113,14 @@ Statistical code analysis involves the application of statistical methods to mea
 7. **ESLint**
    - **Purpose**: Static code analysis for JavaScript.
    - **Features**: Identifies problematic patterns in JavaScript code and enforces coding standards.
+8. **Lint**
+   - Lint is a generic term used to describe static analysis tools across various programming languages. Originally, it was a tool for C code, but now it's commonly used for other languages like Java, JavaScript, and more.
+   - Lint tools analyze source code to detect potential errors, bugs, and stylistic issues.
+   - In the context of Java development, lint tools perform similar functions to Checkstyle, FindBugs, and PMD but may have different focuses or capabilities.
+   - These tools are valuable for identifying and addressing issues early in the development process, helping to improve code quality, maintainability, and reliability.
+   - They are often integrated into the software development workflow and used alongside other testing and quality assurance practices.
+
+
 
 ---
 
