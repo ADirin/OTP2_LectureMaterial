@@ -165,6 +165,8 @@ This guide will help you set up and use Checkstyle in IntelliJ IDEA to ensure yo
 ---
 
 ## **2. Configure Checkstyle**
+
+> ![Tools](/Images/checkStyleTools.jpg)
 1. Go to `File > Settings > Tools > Checkstyle`.
 2. Click the **+** icon to add a new configuration.
 3. Choose `Use a local Checkstyle file` and browse to locate your `checkstyle.xml` file.
