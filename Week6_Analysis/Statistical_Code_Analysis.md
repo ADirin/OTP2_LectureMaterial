@@ -148,3 +148,130 @@ Statistical code analysis is a vital practice for maintaining high-quality softw
 
 By embracing statistical code analysis, software teams can significantly enhance their coding practices, leading to improved product quality and user satisfaction.
 
+--------------------------------------------------------------------
+# **Student Guide: Setting Up and Using Checkstyle in IntelliJ**
+
+This guide will help you set up and use Checkstyle in IntelliJ IDEA to ensure your code adheres to consistent coding standards.
+
+---
+
+## **1. Install Checkstyle Plugin**
+1. Open IntelliJ IDEA.
+2. Go to `File > Settings` (or `Preferences` on macOS).
+3. Navigate to `Plugins`.
+4. Search for **Checkstyle** in the plugin marketplace.
+5. Click `Install` and restart IntelliJ IDEA if prompted.
+
+---
+
+## **2. Configure Checkstyle**
+1. Go to `File > Settings > Tools > Checkstyle`.
+2. Click the **+** icon to add a new configuration.
+3. Choose `Use a local Checkstyle file` and browse to locate your `checkstyle.xml` file.
+   - You can download a sample `checkstyle.xml` file from [Checkstyle GitHub](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml).
+4. Name the configuration (e.g., *Google Style*).
+5. Click **OK** to save the configuration.
+
+---
+
+## **3. Enable Checkstyle in a Project**
+1. Open your project in IntelliJ IDEA.
+2. Navigate to `File > Settings > Tools > Checkstyle`.
+3. Under **Scan Scope**, select `Whole project` or `Current file`.
+4. Set your preferred configuration as the default by checking the box next to it.
+5. Click **OK** to save.
+
+---
+
+## **4. Write a Simple Java Class**
+Let’s create a simple Java class and see how Checkstyle enforces coding standards.
+
+### Example Code (`Student.java`):
+```java
+public class Student {
+
+    private String name;
+    private int age;
+
+    // Constructor
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Getter for name
+    public String getName() {
+        return name;
+    }
+
+    // Setter for name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Getter for age
+    public int getAge() {
+        return age;
+    }
+
+    // Setter for age
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Method to display student info
+    public void displayInfo() {
+        System.out.println("Name: " + name + ", Age: " + age);
+    }
+}
+````
+
+## **5. Analyze Code with Checkstyle**
+Right-click on your project folder or file and select Checkstyle > Scan with Checkstyle.
+Checkstyle will analyze your code and display warnings/errors in the Checkstyle Results window.
+
+------------
+
+## **6.Fixing Common Checkstyle Errors**
+
+Example Error **1: Missing Javadoc Comments**
+ - Issue: Public classes and methods must have Javadoc comments.
+ - Fix: Add Javadoc to your class and methods:
+````java
+
+/**
+ * Represents a Student with a name and age.
+ */
+public class Student {
+    // ...
+}
+
+/**
+ * Displays student information.
+ */
+public void displayInfo() {
+    System.out.println("Name: " + name + ", Age: " + age);
+}
+
+````
+
+Example Error **2: Line Length Exceeds Limit**
+   - Issue: A line exceeds the configured maximum length (e.g., 100 characters).
+   - Fix: Break long lines into multiple lines for better readability:
+````java
+System.out.println(
+    "Name: " + name + ", Age: " + age
+);
+
+
+````
+## **7. Run Checkstyle Again**
+After making changes, run Checkstyle again to ensure the issues are resolved.
+
+---
+
+## **8. Benefits of Using Checkstyle**
+- Enforces coding standards, such as naming conventions and line length.
+- Improves code readability and maintainability.
+- Identifies potential errors early in development.
+
