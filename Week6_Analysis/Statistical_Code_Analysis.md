@@ -172,8 +172,9 @@ This guide will help you set up and use Checkstyle in IntelliJ IDEA to ensure yo
 3. Intellij has by default two styles (sun or google) pick one of these
 > ![Tools](/Images/checkStyleDefault.jpg)
 
-
-4. Incase you have your customized style sheet then you need to configure as show in the following figure
+4. Incase you have your customized style sheet:
+   - create config/checkstyle folder at the root of your project and add an xml file *(stylecheck.xml)*
+   - then configure the customized style check as follows--> setting-->tools--> check style 
    - > ![Tools](/Images/checkStyleTools.jpg)
    - Choose `Use a local Checkstyle file` and browse to locate your `checkstyle.xml` file.
    - You can download a sample `checkstyle.xml` file from [Checkstyle GitHub](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml).
