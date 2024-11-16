@@ -480,3 +480,145 @@ System.out.println("Unused variable value: " + unusedVariable);
 ```
 
 ---------------------------------------------
+
+# Performance Warnings in IntelliJ IDEA
+
+Performance warnings in IntelliJ IDEA help developers identify code that may cause inefficiencies, such as unnecessary object creation, redundant operations, or expensive computations. These warnings aim to improve the runtime performance of your application.
+
+---
+
+## **1. What Are Performance Warnings?**
+
+Performance warnings highlight potential performance bottlenecks in your code. Examples include:
+- **Unnecessary Object Creation**: Repeated creation of identical objects.
+- **Inefficient Loops**: Using `ArrayList.get()` in nested loops.
+- **String Concatenation in Loops**: Using `+` for strings instead of a `StringBuilder`.
+- **Boxing/Unboxing Overhead**: Using wrappers unnecessarily.
+
+---
+
+## **2. Configuring Performance Inspections**
+
+To enable or customize performance inspections in IntelliJ:
+
+1. Go to `File > Settings > Editor > Inspections`.
+2. In the search bar, type **Performance**.
+3. Enable the desired performance inspections, such as:
+   - **Boxing/unboxing operations**.
+   - **Inefficient use of keySet iterator**.
+   - **String concatenation in loops**.
+4. You can adjust the severity of these inspections to suit your project's needs:
+   - **Warning**
+   - **Error**
+   - **Info**
+
+---
+
+## **3. Running Performance Inspections**
+
+1. **Analyze the Whole Project**:
+   - Go to `Analyze > Inspect Code`.
+   - Select the scope (e.g., entire project, current file).
+   - Wait for IntelliJ to complete the analysis.
+
+2. **Inspect Specific Code**:
+   - Right-click on the file or folder in the **Project Explorer**.
+   - Select `Analyze > Run Inspection by Name`.
+   - Search for **Performance** and run the inspection.
+
+---
+
+## **4. Common Performance Warnings and Solutions**
+
+### **a. String Concatenation in Loops**
+- **Issue**: Concatenating strings inside loops is inefficient as it creates multiple temporary objects.
+- **Example**:
+
+```java
+  for (int i = 0; i < 10; i++) {
+      result += i;
+  }
+````
+- Fix: Use StringBuilder or StringBuffer instead:
+```java
+StringBuilder result = new StringBuilder();
+for (int i = 0; i < 10; i++) {
+    result.append(i);
+}
+
+```
+### **b. Unnecessary Boxing/Unboxing**
+- **Issue**: Avoid converting between primitives and wrapper objects unnecessarily.
+- **Example**:
+```java
+Integer count = 0;
+count += 1; // Boxing and unboxing
+
+
+```
+**Fix**: Use primitive types when possible:
+```java
+int count = 0;
+count += 1;
+
+
+```
+### **c. Inefficient Loops**
+**Issue**: Accessing elements in a linked structure repeatedly can be slow.
+**Example**:
+````java
+for (int i = 0; i < list.size(); i++) {
+    System.out.println(list.get(i));
+}
+
+
+````
+**Fix**: Use enhanced for-loops or iterators:
+```java
+for (String item : list) {
+    System.out.println(item);
+}
+
+
+```
+
+### **d. Avoidable Object Creation**
+**Issue**: Creating new objects unnecessarily increases memory usage.
+**Example**:
+
+```java
+for (int i = 0; i < 100; i++) {
+    String message = new String("Hello");
+}
+
+```
+**Fix**: Reuse objects or use literals
+```java
+String message = "Hello";
+for (int i = 0; i < 100; i++) {
+    System.out.println(message);
+}
+
+```
+
+## 5. Viewing and Resolving Warnings
+
+- After running inspections, performance-related issues are displayed in the **Inspection Results** tab.
+- Click on an issue to navigate to the relevant code.
+- Apply IntelliJ’s quick-fix suggestions (Alt + Enter) or manually refactor the code.
+
+---
+
+## 6. Automating Performance Checks
+
+- **Integrate with CI/CD**: Use tools like **SpotBugs** or **PMD** in your build pipeline to enforce performance checks.
+
+- **Code Quality Plugins**: IntelliJ plugins like **SonarLint** can provide real-time feedback on performance issues.
+
+---
+
+## 7. Best Practices for Avoiding Performance Issues
+
+- Use built-in IntelliJ inspections regularly.
+- Enable real-time inspection for faster feedback.
+- Profile your application using tools like **VisualVM** or **IntelliJ's performance profiler** for deeper insights.
