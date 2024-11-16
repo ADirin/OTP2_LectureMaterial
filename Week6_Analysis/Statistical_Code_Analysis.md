@@ -385,4 +385,74 @@ Add the FindBugs Maven plugin to your `pom.xml`:
 
 For a more modern alternative, consider using **SpotBugs**, which is actively maintained and provides updated rules.
 
+
+
+### Example
+
+- Create a java class and follow the instructions for testing
+
+```java
+public class Example {
+
+    private static String message;
+
+    public static void main(String[] args) {
+        System.out.println("Welcome to FindBugs Example!");
+
+        // Potential bug: NullPointerException risk
+        System.out.println(message.toLowerCase());
+
+        // Potential bug: Unused variable
+        int unusedVariable = 42;
+    }
+}
+
+
+```
+
+### 2. Install and Configure FindBugs Plugin
+
+#### Install the Find Security Bugs Plugin:
+1. Go to `File > Settings > Plugins`.
+2. Search for **"Find Security Bugs"** and install the plugin.
+3. Restart IntelliJ IDEA.
+
+#### Enable Inspections for FindBugs:
+1. Go to `File > Settings > Editor > Inspections`.
+2. Expand the **FindBugs** section.
+3. Enable inspections like **Potential null pointer dereference** and **Unused variables**.
+
+---
+
+### 3. Run FindBugs Analysis
+
+1. Right-click on the `src` folder or the `Example` class in the Project Explorer.
+2. Select `Analyze > Run Inspection by Name`.
+3. Type **FindBugs** and select the inspection type to run (e.g., **Potential null pointer dereference**).
+4. Click **OK** to start the analysis.
+
+---
+
+### 4. View and Resolve Issues
+
+#### View Issues:
+- The results will appear in the **Inspection Results** tab:
+  - **Warning 1**: Null pointer dereference risk on `message.toLowerCase()`.
+  - **Warning 2**: Unused variable `unusedVariable`.
+
+#### Fix the Issues:
+1. **Initialize `message`** to avoid the null pointer dereference:
+```java
+   private static String message = "Default Message";
+````
+
+2. ***Remove or use the unused variable:
+
+```java
+
+int unusedVariable = 42;
+System.out.println("Unused variable value: " + unusedVariable);
+
+```
+
 ---------------------------------------------
