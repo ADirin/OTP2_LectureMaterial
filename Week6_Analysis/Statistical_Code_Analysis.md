@@ -415,7 +415,31 @@ public class Example {
 #### Install the Find Security Bugs Plugin:
 1. Go to `File > Settings > Plugins`.
 2. Search for **"Find Security Bugs"** and install the plugin.
-3. Restart IntelliJ IDEA.
+
+   - or Install SpotBugs via Maven/Gradle
+   - SpotBugs is the maintained successor to FindBugs. You can add SpotBugs to your project using build tools:
+
+For Maven: Add the SpotBugs plugin to your pom.xml:
+
+```xml
+<plugin>
+    <groupId>com.github.spotbugs</groupId>
+    <artifactId>spotbugs-maven-plugin</artifactId>
+    <version>4.7.3.0</version>
+    <executions>
+        <execution>
+            <phase>verify</phase>
+            <goals>
+                <goal>check</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+
+
+```
+
+4. Restart IntelliJ IDEA.
 
 #### Enable Inspections for FindBugs:
 1. Go to `File > Settings > Editor > Inspections`.
