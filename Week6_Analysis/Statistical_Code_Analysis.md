@@ -284,3 +284,105 @@ After making changes, run Checkstyle again to ensure the issues are resolved.
 - Improves code readability and maintainability.
 - Identifies potential errors early in development.
 
+---------------------------------------
+
+
+# Using FindBugs in IntelliJ IDEA
+
+## Introduction to FindBugs
+FindBugs is a static analysis tool that detects bugs in Java code by analyzing bytecode. It helps identify potential issues like null pointer dereferences, code smells, and performance issues. Although FindBugs is no longer actively maintained, its functionalities can still be accessed via IntelliJ IDEA using compatible plugins like **Find Security Bugs** (an extended version of FindBugs).
+
+---
+
+## Installing FindBugs Plugin in IntelliJ IDEA
+
+1. **Open Plugin Settings**:
+   - Navigate to `File > Settings > Plugins` (Windows/Linux) or `IntelliJ IDEA > Preferences > Plugins` (Mac).
+
+2. **Search for FindBugs**:
+   - In the search bar, type **FindBugs** or **Find Security Bugs** (recommended as it’s updated with security checks).
+
+3. **Install Plugin**:
+   - Select the plugin from the results and click **Install**.
+
+4. **Restart IntelliJ**:
+   - Restart the IDE to activate the plugin after installation.
+
+---
+
+## Configuring FindBugs in IntelliJ
+
+1. **Enable FindBugs Inspection**:
+   - Go to `File > Settings > Editor > Inspections`.
+   - Expand the `FindBugs` section in the **Inspections** tree.
+   - Enable desired inspections by checking their boxes.
+
+2. **Customize Inspection Settings**:
+   - Select an inspection and click the **gear icon** to configure its severity level and rules.
+   - Use the **scope selector** to limit the inspection to specific files, directories, or modules.
+
+3. **Set Custom Filters** (Optional):
+   - Create or edit `.fbexclude` files to filter out specific classes or methods from the analysis.
+
+---
+
+## Running FindBugs Analysis
+
+1. **Run Inspection on Code**:
+   - Right-click on the project or a specific file in the Project Explorer.
+   - Select `Analyze > Run Inspection by Name`.
+   - Type **FindBugs** and choose the desired inspection.
+
+2. **View Results**:
+   - The results will appear in the **Inspection Results** tab.
+   - Detected issues are categorized by severity, such as warnings, errors, and informational messages.
+
+3. **Fix Issues**:
+   - Click on a reported issue to navigate directly to the corresponding line of code.
+   - Use IntelliJ's built-in quick fixes or manually refactor your code.
+
+---
+
+## Integrating FindBugs in Build Tools
+
+### For Maven Projects
+Add the FindBugs Maven plugin to your `pom.xml`:
+```xml
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>findbugs-maven-plugin</artifactId>
+    <version>3.0.5</version>
+    <executions>
+        <execution>
+            <phase>verify</phase>
+            <goals>
+                <goal>check</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+````
+## Best Practices
+
+- **Regular Analysis**:  
+  Run FindBugs frequently to catch issues early during development.
+
+- **Combine with Other Tools**:  
+  Use IntelliJ's built-in inspections and additional tools like PMD or SonarLint for comprehensive analysis.
+
+- **Suppress Warnings**:  
+  If a specific issue is a false positive or not critical, use `@SuppressWarnings("FindBugs")` to suppress it.
+
+- **Automate in CI/CD**:  
+  Integrate FindBugs into your Continuous Integration pipeline to enforce quality checks.
+
+---
+
+## Limitations of FindBugs
+
+- FindBugs analyzes bytecode, so certain issues detectable only in source code might be missed.
+- It doesn’t actively support modern Java language features (Java 9+).
+
+For a more modern alternative, consider using **SpotBugs**, which is actively maintained and provides updated rules.
+
+---------------------------------------------
