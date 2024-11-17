@@ -2,6 +2,36 @@
 
 Statistical code analysis is an essential practice in software quality assurance that leverages statistical methods to assess code quality and maintainability. It provides insights into software complexity, potential vulnerabilities, and adherence to coding standards. This learning material covers the principles, techniques, and tools involved in statistical code analysis.
 
+```mermaid
+graph LR
+    A[Checkstyle] --> B[Code Style Issues]
+    A --> C[Static Analysis]
+    D[FindBugs] --> E[Bug Detection]
+    D --> F[Code Quality Issues]
+    G[PMD] --> H[Code Smells]
+    G --> I[Rule Violations]
+    J[Lint] --> K[Syntax and Styling Errors]
+    J --> L[Potential Bugs]
+    M[Performance Warning] --> N[Performance Issues]
+    M --> O[Memory Leaks]
+
+    subgraph Tools
+        A[Checkstyle]
+        D[FindBugs]
+        G[PMD]
+        J[Lint]
+        M[Performance Warning]
+    end
+
+    Tools -->|Check Code Quality| B[Code Style Issues]
+    Tools -->|Identify Bugs| E[Bug Detection]
+    Tools -->|Improve Code Quality| H[Code Smells]
+    Tools -->|Warn About Potential Bugs| K[Syntax and Styling Errors]
+    Tools -->|Warn About Performance| N[Performance Issues]
+
+
+```
+
 ## Table of Contents
 - [Introduction to Statistical Code Analysis](#introduction-to-statistical-code-analysis)
 - [Key Metrics in Statistical Code Analysis](#key-metrics-in-statistical-code-analysis)
