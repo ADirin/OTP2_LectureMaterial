@@ -364,6 +364,8 @@ Add the FindBugs Maven plugin to your `pom.xml`:
 ````
 ## Best Practices
 
+
+
 - **Regular Analysis**:  
   Run FindBugs frequently to catch issues early during development.
 
@@ -388,6 +390,7 @@ For a more modern alternative, consider using **SpotBugs**, which is actively ma
 
 
 ### Example
+
 
 - Create a java class and follow the instructions for testing
 
