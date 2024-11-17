@@ -729,7 +729,7 @@ for (int i = 0; i < 10; i++) {
 ## **5. Automating PMD Checks**
 - Integrate with CI/CD: Use PMD in your Continuous Integration pipeline to enforce code quality:
    - Maven: Add the PMD plugin to your *pom.xml*:
-     ```xml
+```xml
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-pmd-plugin</artifactId>
