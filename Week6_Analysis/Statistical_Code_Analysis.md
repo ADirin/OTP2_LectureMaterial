@@ -654,6 +654,23 @@ This guide will help you integrate and use PMD in IntelliJ IDEA.
 2. **Import a Ruleset**:
    - Go to `File > Settings > Tools > PMD`.
    - Click **Add** to specify the path to the ruleset file (e.g., `pmd-rules.xml`).
+  
+## Troubleshooting Plugin Search Issues
+
+If you're specifically trying to locate PMD in IntelliJ but it’s missing, follow these steps:
+
+### **1. Check for Plugin Repositories**
+- Go to `File > Settings > Plugins > Marketplace`.
+- Ensure your IntelliJ has access to the **JetBrains Plugin Repository**.
+
+### **2. Search in Other Sources**
+- Visit the [JetBrains Plugin Marketplace](https://plugins.jetbrains.com/) directly to search for PMD.
+- If a compatible plugin exists, download it and install manually via the **Install Plugin from Disk** option.
+
+### **3. Verify IntelliJ Version**
+- Ensure your IntelliJ IDEA version is up to date.
+- Some plugins may not be available for older versions of IntelliJ.
+
 
 ---
 
