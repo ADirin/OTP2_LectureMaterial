@@ -65,11 +65,11 @@ Checkstyle is used to ensure code adheres to a style guide (e.g., Google Java St
 - Click on **+** to add a new configuration. Choose the Checkstyle configuration file (e.g., `google_checks.xml` or your custom XML configuration).
 - Once configured, you can run Checkstyle from the **Tools** menu by selecting **Checkstyle > Check code with Checkstyle**.
 
-### 2. FindBugs
+### 2. FindBugs / SpotBugs
 FindBugs detects potential bugs in the code.
 
-- Go to **File > Settings > Plugins** and ensure **FindBugs** is installed.
-- Go to **Analyze > FindBugs** and choose **Run FindBugs** to analyze the code.
+- Go to **File > Settings > Plugins** and ensure **FindBugs**  or **SpotBugs**is installed.
+- Go to **Analyze > FindBugs** or **SpotBugs** and choose **Run FindBugs** to analyze the code.
 - FindBugs will show potential bugs like division by zero, which is present in the `divide` method.
 
 ### 3. Performance Warnings
