@@ -622,3 +622,135 @@ for (int i = 0; i < 100; i++) {
 - Use built-in IntelliJ inspections regularly.
 - Enable real-time inspection for faster feedback.
 - Profile your application using tools like **VisualVM** or **IntelliJ's performance profiler** for deeper insights.
+
+----------------------------
+# Using PMD with IntelliJ IDEA
+
+**PMD** is a source code analyzer that detects common programming flaws, including:
+- Unused variables
+- Empty catch blocks
+- Unnecessary object creation
+- Inefficient or error-prone code patterns
+
+This guide will help you integrate and use PMD in IntelliJ IDEA.
+
+---
+
+## **1. Installing the PMD Plugin**
+
+1. Open IntelliJ IDEA.
+2. Navigate to `File > Settings > Plugins`.
+3. Search for "PMD".
+4. Install the plugin **PMDPlugin** and restart IntelliJ IDEA.
+
+---
+
+## **2. Configuring PMD Rules**
+
+1. **Locate the PMD Ruleset**:
+   - PMD uses XML configuration files to define rules.
+   - You can use a pre-defined ruleset or create a custom one. Common rulesets are available [here](https://pmd.github.io/latest/pmd_rules_java.html).
+
+2. **Import a Ruleset**:
+   - Go to `File > Settings > Tools > PMD`.
+   - Click **Add** to specify the path to the ruleset file (e.g., `pmd-rules.xml`).
+
+---
+
+## **3. Running PMD Analysis**
+
+1. **Analyze a Project/File**:
+   - Right-click on your project or specific file in the **Project Explorer**.
+   - Select `Analyze > Run PMD`.
+
+2. **Choose Scope**:
+   - Select the scope of analysis, such as the entire project, a single module, or a specific file.
+
+3. **View Results**:
+   - PMD findings will appear in a dedicated **PMD Results** tab, categorized by rule violations and affected files.
+
+---
+
+## **4. Common PMD Warnings and Fixes**
+
+### **a. Unused Local Variables**
+- **Issue**: Variables are declared but never used.
+- **Example**:
+  ```java
+  int unusedVariable = 0;
+  ```
+**Fix**: Remove the unused variable:
+
+  ´´´java
+  // Removed unusedVariable
+
+  ´´´
+### **b. Empty Catch Block**
+- **Issue**: Catch blocks without any handling logic.
+- **Example**:
+```java
+try {
+    // Code
+} catch (Exception e) {
+    // Empty catch block
+}
+```
+**fix**: Add proper handling logic or log the exception
+```java
+try {
+    // Code
+} catch (Exception e) {
+    e.printStackTrace();
+}
+
+
+```
+
+### **c. Avoid Instantiating Objects in Loops**
+- **Issue**: Objects created repeatedly in loops unnecessarily increase memory usage.
+- **Example**:
+
+```java
+for (int i = 0; i < 10; i++) {
+    String obj = new String("Hello");
+}
+
+```
+**fix**:  Move the object creation outside the loop:
+```java
+String obj = "Hello";
+for (int i = 0; i < 10; i++) {
+    // Use obj
+}
+
+
+```
+
+## **5. Automating PMD Checks**
+- Integrate with CI/CD: Use PMD in your Continuous Integration pipeline to enforce code quality:
+   - Maven: Add the PMD plugin to your *pom.xml*:
+     ```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-pmd-plugin</artifactId>
+    <version>3.18.0</version>
+    <executions>
+        <execution>
+            <phase>verify</phase>
+            <goals>
+                <goal>check</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+```
+Run *mvn pmd:check* or *gradle pmdMain* to include PMD checks in your build.
+
+- **Code Quality Plugins**: IntelliJ plugins like *SonarLint* can complement PMD with real-time feedback.
+
+## **6. Best Practices for Using PMD**
+- Regularly run PMD on your codebase to catch and fix issues early.
+- Customize the ruleset to align with your project’s coding standards.
+- Combine PMD with other tools like SpotBugs or IntelliJ's built-in inspections for comprehensive analysis.
+- Automate PMD checks in your CI/CD pipelines to maintain consistent code quality
+-----------------------------------------
