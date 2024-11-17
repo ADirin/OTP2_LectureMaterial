@@ -113,18 +113,6 @@ After running these tools, IntelliJ will show you a report of violations. Here's
 
 ## Conclusion
 
-After following these steps, you'll have a Java application in IntelliJ IDEA that demonstrates the usage of Checkstyle, FindBugs, Performance Warnings, PMD, and SonarLint. You can run each tool to detect and fix issues in the code, ensuring better code quality and performance. Name the project (for example, `JavaAnalysisDemo`) and choose a directory for it. 
+After following these steps, you'll have a Java application in IntelliJ IDEA that demonstrates the usage of Checkstyle, FindBugs, Performance Warnings, PMD, and SonarLint. You can run each tool to detect and fix issues in the code, ensuring better code quality and performance. 
 
-Click **Finish** to create the project.
 
-Now, you should have a basic Java project ready. You can create a simple Java class for this demonstration.
-
-### Example of a Simple Java Class (`Main.java`):
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        User user = new User("John Doe");
-        System.out.println(user.getName());
-    }
-}
