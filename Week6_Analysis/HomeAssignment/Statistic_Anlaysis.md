@@ -72,21 +72,15 @@ FindBugs detects potential bugs in the code.
 - Go to **Analyze > FindBugs** or **SpotBugs** and choose **Run FindBugs** to analyze the code.
 - FindBugs will show potential bugs like division by zero, which is present in the `divide` method.
 
-### 3. Performance Warnings
-Performance warnings can often be triggered by excessive method calls in loops or unoptimized code.
 
-- Go to **File > Settings > Inspections** and search for **Performance**.
-- Enable relevant performance warnings like **Method calls in loops** and others.
-- After enabling the inspections, you can trigger a performance warning by analyzing the code. For example, the `System.out.println(i)` inside a loop may trigger such warnings.
-
-### 4. PMD
+### 3. PMD
 PMD identifies code smells and violations of best practices.
 
 - Go to **File > Settings > Plugins** and ensure **PMD** is installed.
 - Go to **Analyze > PMD > Run PMD**.
 - PMD will show warnings for common violations, such as unused variables (e.g., `unusedVariable` in `Main.java`).
 
-### 5. SonarLint
+### 4. SonarLint
 SonarLint detects code quality issues and security vulnerabilities.
 
 - Go to **File > Settings > Plugins** and ensure **SonarLint** is installed.
