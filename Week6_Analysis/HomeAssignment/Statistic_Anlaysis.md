@@ -91,7 +91,6 @@ SonarLint detects code quality issues and security vulnerabilities.
 
 - **Checkstyle**: After running Checkstyle, any style violations (such as incorrect indentation or missing Javadoc comments) will be shown.
 - **FindBugs**: Run FindBugs, and it will flag issues like division by zero or potential null pointer dereferencing.
-- **Performance Warnings**: Warnings for inefficient code, such as repeated method calls in a loop, will appear in the **Inspection Results** pane.
 - **PMD**: PMD will catch violations like unused variables or uninitialized class members (e.g., the `name` field in the `User` class).
 - **SonarLint**: SonarLint will highlight potential code quality and security issues, including things like unused variables or problematic code patterns.
 
@@ -101,7 +100,6 @@ After running these tools, IntelliJ will show you a report of violations. Here's
 
 - **Checkstyle**: Follow the style guide to adjust the code accordingly.
 - **FindBugs**: For issues like division by zero, ensure there’s validation to avoid dividing by zero.
-- **Performance Warning**: Optimize loops, avoid calling expensive methods inside loops unnecessarily.
 - **PMD**: Remove unused variables or initialize class members properly.
 - **SonarLint**: Address code quality and security concerns, such as null checks, thread safety, and more.
 
