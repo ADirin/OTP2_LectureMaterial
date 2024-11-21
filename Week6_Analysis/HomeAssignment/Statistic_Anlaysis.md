@@ -1,6 +1,6 @@
 # Setting up Checkstyle, FindBugs, Performance Warning, PMD, and SonarLint in IntelliJ IDEA
 
-To create a Java application in IntelliJ IDEA that demonstrates the use of the following plugins: Checkstyle, FindBugs, Performance Warning, PMD, and SonarLint, follow the steps outlined below.
+To create a Java application in IntelliJ IDEA that demonstrates the use of the following plugins: Checkstyle, SpotBugs, PMD, and **SonarLint**, follow the steps outlined below.
 
 ## Step 1: Create a Java Application in IntelliJ IDEA
 
