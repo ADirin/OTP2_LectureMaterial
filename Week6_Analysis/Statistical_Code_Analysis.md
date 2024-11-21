@@ -902,10 +902,12 @@ Add Checkstyle or PMD plugins to your `pom.xml`:
 # SonarQube in IntelliJ: A Quick Guide
 
 ## **What is SonarQube?**
-SonarQube is an open-source platform for continuous inspection of code quality. It performs static code analysis to detect:
+SonarQube is a popular tool for code quality and security analysis. If you want to generate a report or extract SonarQube results for AAA (**Accessibility**, **Automation**, or **Accuracy**, depending on your context). SonarQube is an open-source platform for continuous inspection of code quality. It performs static code analysis to detect:
 - **Bugs**: Programming mistakes that could lead to failures.
 - **Code Smells**: Maintainability issues in the code.
 - **Vulnerabilities**: Security weaknesses in your application.
+
+
 
 SonarQube integrates with IDEs, CI/CD pipelines, and provides a centralized dashboard to monitor code quality.
 
