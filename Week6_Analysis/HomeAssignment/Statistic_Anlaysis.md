@@ -103,6 +103,11 @@ After running these tools, IntelliJ will show you a report of violations. Here's
 - **PMD**: Remove unused variables or initialize class members properly.
 - **SonarLint**: Address code quality and security concerns, such as null checks, thread safety, and more.
 
+-----------------------------------
+## Submission
+1. Ensure that all tools are installed via Settings → Plugins.
+2. Submit a PDF file demonstrating the output from these tools (Checkstyle, PMD, SonarLint, and SpotBugs) for this exercise. For example, include screenshots showing the identified bugs and their resolution.
+
 ## Conclusion
 
 After following these steps, you'll have a Java application in IntelliJ IDEA that demonstrates the usage of Checkstyle, FindBugs, Performance Warnings, PMD, and SonarLint. You can run each tool to detect and fix issues in the code, ensuring better code quality and performance. 
