@@ -14,7 +14,9 @@ Software documentation refers to the comprehensive description of a software pro
 
 ## Introduction to Software Documentation
 
-Software documentation serves as a guide for users and developers to understand the software's architecture, functionality, and usage. It encompasses various forms of documentation, including user manuals, API references, and developer guides.
+Documentation in software engineering refers to written materials that explain how a system, software, or component works. It includes design documents, user manuals, code comments, and other records essential for understanding, developing, and maintaining software systems.
+
+Without proper documentation, even the most well-designed software can become difficult to maintain, extend, and use. Below, we explore why documentation is critical in software engineering.
 
 ### Why is Documentation Important?
 
