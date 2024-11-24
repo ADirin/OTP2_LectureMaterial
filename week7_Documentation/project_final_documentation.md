@@ -353,6 +353,169 @@ AI is making documentation more dynamic and integral to the software development
 - :contentReference[oaicite:0]{index=0}ps:&#8203;:contentReference[oaicite:1]{index=1}i-a&#8203;:contentReference[oaicite:2]{index=2}(https://www.docker.com/blog/ai-trends-report-2024/)
 - [DEV Community Insights on AI Documentation](https://dev.to/docker/the-rise-of-ai-in-software-development-key-insights-from-the-2024-docker-ai-trends-report-22dh)
 
+--------------------------------
+
+# Example of poor and good software documentation
+
+
+# Examples of Poor and Good Software Documentation
+
+---
+
+## Scenario: Online Library Management System  
+A software development team is creating an **Online Library Management System** to handle book borrowing, user registration, and overdue notifications.
+
+---
+
+## Poor Documentation Example
+
+### **Project Overview**
+> This project is about a library system.
+
+- Doesn't describe the purpose or the features of the system.
+- Fails to address the users or the problem the system solves.
+
+### **System Requirements**
+- It should work well.
+- Users can borrow books.
+
+- Vague and generic statements.
+- No specific functional or non-functional requirements are listed.
+
+### **Architecture and Design**
+> The system has a database and a website.
+
+- Lacks details about system components.
+- No diagrams or architecture description.
+
+### **Testing Plan**
+> We will test the website to make sure it works.
+
+- Missing details on what will be tested, how it will be tested, and test criteria.
+
+### **Deployment Plan**
+> The system will go live when it’s ready.
+
+- No details about hosting, deployment steps, or timeline.
+
+### **Maintenance Plan**
+> Bugs will be fixed later.
+
+- Lacks a structured approach for handling bug reports or system updates.
+
+---
+
+## Good Documentation Example
+
+### **Project Overview**
+> The **Online Library Management System** allows users to register, browse books, borrow books, and receive overdue notifications. The system helps libraries automate book borrowing and improve user experience. It is designed for library staff and registered users.
+
+- Clearly explains the purpose, audience, and features.
+- Provides a brief overview of what the system does.
+
+---
+
+### **System Requirements**
+#### **Functional Requirements**
+1. Users can register an account with email verification.  
+2. Library staff can manage the book inventory.  
+3. The system will send email notifications for overdue books.  
+
+#### **Non-Functional Requirements**
+1. The system should handle up to 10,000 users simultaneously.  
+2. It must respond to user actions within 2 seconds.  
+
+- Specific, measurable, and testable requirements.
+
+---
+
+### **Architecture and Design**
+#### **System Components**
+- **Frontend**: React-based user interface for browsing and borrowing books.  
+- **Backend**: Node.js API for user management and book inventory.  
+- **Database**: PostgreSQL for storing user and book data.  
+
+#### **Diagram**
+```mermaid
+graph TD
+    A[User Interface] --> B[Backend API]
+    B --> C[Database]
+    B --> D[Email Notification Service]
+````
+
+## Clearly Outlines the Architecture with a Diagram
+
+---
+
+### Testing Plan
+
+#### Test Cases
+
+1. **Test 1**: Verify that users can successfully register with a valid email.  
+   - **Input**: Email and password  
+   - **Expected Output**: "Account created" message.  
+
+2. **Test 2**: Check that overdue email notifications are sent after 7 days.  
+   - **Input**: Borrowed book with overdue date  
+   - **Expected Output**: Notification email sent to the user.  
+
+- Detailed plan with test cases, inputs, and expected outputs.
+
+---
+
+### Deployment Plan
+
+1. **Hosting**
+   - Host the frontend on AWS S3 with CloudFront for CDN.  
+   - Deploy the backend API on AWS EC2 using Docker.  
+   - Use AWS RDS for the database.  
+
+2. **Deployment Steps**
+   - Run `npm build` to compile the frontend.  
+   - Deploy the Docker container using the `docker-compose up` command.  
+
+3. **Timeline**: Deployment scheduled for December 5, 2024.  
+
+- Provides hosting details, deployment steps, and a clear timeline.
+
+---
+
+### Maintenance Plan
+
+1. **Bug Tracking**: Use GitHub Issues for bug reporting and tracking.  
+
+2. **Updates**:
+   - Schedule minor updates every 2 weeks.  
+   - Major updates every quarter.  
+
+3. **Feedback**: Monitor user feedback through a feedback form integrated into the system.  
+
+- A clear structure for handling bugs, updates, and user feedback.
+
+---
+
+### Key Differences
+
+| **Aspect**      | **Poor Documentation**       | **Good Documentation**               |
+|------------------|------------------------------|---------------------------------------|
+| **Clarity**      | Vague and unclear           | Detailed and precise                 |
+| **Content**      | Lacks critical information  | Covers key sections comprehensively  |
+| **Structure**    | Disorganized                | Well-structured with headings and details |
+| **Visuals**      | No diagrams or visuals      | Includes diagrams for better understanding |
+| **Testability**  | No test cases               | Detailed test cases with inputs/outputs |
+| **Usability**    | Hard to follow or use       | Easy to follow and apply             |
+
+---
+
+### In-Class Exercise Using These Examples
+
+1. **Discussion**: Compare the poor and good documentation.  
+2. **Activity**: Improve the poor documentation example using the provided good example structure.  
+3. **Reflection**: Discuss how good documentation impacts project success.
+
+
+
+
 
 ## Conclusion
 
