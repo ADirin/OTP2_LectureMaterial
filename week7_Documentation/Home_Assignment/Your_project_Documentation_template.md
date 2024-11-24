@@ -25,8 +25,7 @@ flowchart TD
 
     G --> G1[Bug Tracking]
 
-
-```
+````
 
 ## Instructions for Using the Template:
 
