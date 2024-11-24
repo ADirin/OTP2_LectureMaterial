@@ -32,7 +32,7 @@ Figure 1 shows the overview of software documentations
 
 > ![doctype](/Images/doc1.jpg)
 
-Ref. https://www.altexsoft.com/blog/technical-documentation-in-software-development-types-best-practices-and-tools/
+Ref. and  further readings at:  https://www.altexsoft.com/blog/technical-documentation-in-software-development-types-best-practices-and-tools/
 ![image](https://github.com/user-attachments/assets/18b0cb07-7308-40da-ace9-57be329f671e)
 
 
