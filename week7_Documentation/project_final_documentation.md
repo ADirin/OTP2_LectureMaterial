@@ -355,8 +355,6 @@ AI is making documentation more dynamic and integral to the software development
 
 --------------------------------
 
-# Example of poor and good software documentation
-
 
 # Examples of Poor and Good Software Documentation
 
