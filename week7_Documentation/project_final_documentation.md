@@ -26,8 +26,6 @@ Without proper documentation, even the most well-designed software can become di
 
 ---
 
-## Types of Software Documentation
-
 # **Software Documentation Types**
 
 ## **1. Product Documentation**
