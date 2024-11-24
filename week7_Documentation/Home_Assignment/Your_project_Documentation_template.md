@@ -2,6 +2,32 @@
 
 This template provides a basic structure for documentation based on the type of software engineering project. It is designed to guide you in creating thorough, organized, and clear documentation for your software project.
 
+````mermaid
+flowchart TD
+    A[Software Project Documentation] --> B[Project Overview]
+    A --> C[Design & Architecture]
+    A --> D[Development]
+    A --> E[Testing]
+    A --> F[Deployment]
+    A --> G[Maintenance]
+
+    B --> B1[Project Description]
+    B --> B2[Objectives]
+
+    C --> C1[System Design]
+    C --> C2[Architecture Diagrams]
+
+    D --> D1[Code Structure]
+
+    E --> E1[Test Plan]
+
+    F --> F1[Deployment Process]
+
+    G --> G1[Bug Tracking]
+
+
+```
+
 ## Instructions for Using the Template:
 
 *This document should cover both courses SEP1 and SEP2*
