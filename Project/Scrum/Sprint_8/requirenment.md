@@ -37,7 +37,7 @@
      - **Activity Diagrams**
      - **Sequence Diagrams**
 
-### 5. Implementation
+### 5. Implementation (5.1 UI, 5.2 DB)
    - **Hardware:** Skip if not applicable.
    - **Software:** Overview of the software components, modules, and technologies used.
 
