@@ -41,7 +41,7 @@
    - **Hardware:** Skip if not applicable.
    - **Software:** Overview of the software components, modules, and technologies used.
 
-### 6. Testing
+### 6. Testing (Alternatively you can use the title QA and 6.1 Testing and 6.2 Code clean)
    - Summary of testing strategies and methodologies used to ensure software quality, including:
      - **Unit Testing**
      - **Integration Testing**
