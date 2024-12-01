@@ -1,7 +1,6 @@
 # Exam
 The sources for the final exam, along with the two resits, are the course GitHub repository and the PowerPoint presentations shared during the lectures. The exam is Moodle-based and lasts for one hour.
 
-# Final Project Presentation
 
 # **Project Presentation Guidelines**
 
