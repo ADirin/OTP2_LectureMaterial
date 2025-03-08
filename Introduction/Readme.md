@@ -122,34 +122,24 @@ Attendance during contact hours is **mandatory** unless otherwise specified.
 
 ### Schedule for both group
 
-```markdown| Date   | Sprint | Report | Lecture      | Assignments/Exam | Comment |
-|--------|--------|--------|--------------|------------------|---------|
-| 18.03  | Spritn5|        |Introduction  |                  |         | 
-| 20.03  |        |        |Localization  |                  |         |
-
+| Date   | Sprint  | Report  | Lecture        | Assignments/Exam | Comment |
+|--------|--------|--------|----------------|------------------|---------|
+| 18.03  | Sprint 5 |        | Introduction  |                  |         | 
+| 20.03  |        |        | Localization  |                  |         |
 | 25.03  |        |        |              |                  |         |
 | 27.03  |        |        |              |                  |         |
-
-| 01.04  | Sprint6 |Review |Quality       |                  |         | 
+| 01.04  | Sprint 6 | Review | Quality       |                  |         | 
 | 03.04  |        |        |              |                  |         |
-
 | 08.04  |        |        |              |                  |         |
 | 10.04  |        |        |              |                  |         |
-
-| 15.04  | Sprint7|Review  | Testing      |                  |         | 
+| 15.04  | Sprint 7 | Review  | Testing      |                  |         | 
 | 17.04  |        |        |              |                  |         |
-
 | 22.04  |        |        |              |                  |         |
 | 24.04  |        |        |              |                  |         |
-
-| 29.04  | Sprint8|Review  | Documentation|                  |         | 
+| 29.04  | Sprint 8 | Review  | Documentation|                  |         | 
 | 01.05  |        |        |              |                  |         |
-
 | 06.05  |        |        |              |                  |         |
 | 08.05  |        | Review |              |                  |         |
-
-```
-
 ---
 
 **Note**: All team members must participate during the review sessions.
