@@ -122,7 +122,7 @@ Attendance during contact hours is **mandatory** unless otherwise specified.
 
 ### Schedule for both group
 
-| Date   | Sprint | Report | Lecture      | Assignments/Exam | Comment |
+```markdown| Date   | Sprint | Report | Lecture      | Assignments/Exam | Comment |
 |--------|--------|--------|--------------|------------------|---------|
 | 18.03  | Spritn5|        |Introduction  |                  |         | 
 | 20.03  |        |        |Localization  |                  |         |
@@ -148,6 +148,7 @@ Attendance during contact hours is **mandatory** unless otherwise specified.
 | 06.05  |        |        |              |                  |         |
 | 08.05  |        | Review |              |                  |         |
 
+```
 
 ---
 
