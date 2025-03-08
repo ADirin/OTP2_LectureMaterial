@@ -120,53 +120,36 @@ Attendance during contact hours is **mandatory** unless otherwise specified.
 
 ## Schedule
 
-### Schedule for Group 1 (3002):
+### Schedule for both group
 
-| Date        | Sprint    | Report     | Lecture       | Assignments/Exam |
-|-------------|-----------|------------|---------------|------------------|
-| 21.10.2024  | Sprint 5  |            | Introduction  |                  |
-| 24.10.2024  |           |            | Localization  |                  |
-| 28.10.2024  |           |            |               |                  |
-| 31.10.2024  |           | Review     |               |                  |
-| 4.11.2024   | Sprint 6  |            | Quality       |                  |
-| 7.11.2024   |           |            |               |                  |
-| 11.11.2024  |           |            |               |                  |
-| 14.11.2024  |           | Review     |               |                  |
-| 18.11.2024  | Sprint 7  |            | Testing       |                  |
-| 21.11.2024  |           |            |               |                  |
-| 25.11.2024  |           |            |               |                  |
-| 28.11.2024  |           | Review     |               |                  |
-| 2.12.2024   | Sprint 8  |            | Documentation |                  |
-| 5.12.2024   | EXAM      |            |               |                  |
-| 9.12.2024   | Presentation |         |               |                  |
-| 12.12.2024  | Rexam     | Review     |               |                  |
+| Date   | Sprint | Report | Lecture      | Assignments/Exam | Comment |
+|--------|--------|--------|--------------|------------------|---------|
+| 18.03  | Spritn5|        |Introduction  |                  |         | 
+| 20.03  |        |        |Localization  |                  |         |
 
----
+| 25.03  |        |        |              |                  |         |
+| 27.03  |        |        |              |                  |         |
 
-### Schedule for Group 2 (3005):
+| 01.04  | Sprint6 |Review |Quality       |                  |         | 
+| 03.04  |        |        |              |                  |         |
 
-| Date        | Sprint    | Report     | Lecture       | Assignments/Exam |
-|-------------|-----------|------------|---------------|------------------|
-| 21.10.2024  | Sprint 5  |            | Introduction  |                  |
-| 25.10.2024  |           |            | Localization  |                  |
-| 28.10.2024  |           |            |               |                  |
-| 1.11.2024   |           | Review     |               |                  |
-| 4.11.2024   | Sprint 6  |            | Quality       |                  |
-| 8.11.2024   |           |            |               |                  |
-| 11.11.2024  |           |            |               |                  |
-| 15.11.2024  |           | Review     |               |                  |
-| 18.11.2024  | Sprint 7  |            | Testing       |                  |
-| 22.11.2024  |           |            |               |                  |
-| 25.11.2024  |           |            |               |                  |
-| 29.11.2024  |           | Review     |               |                  |
-| 2.12.2024   | Exam |            | Documentation |                  |
-| 6.12.2024   |     |            |               |                  |
-| 9.12.2024   | Presentation |         |               |                  |
-| 13.12.2024  | Rexam     | Review     |               |                  |
+| 08.04  |        |        |              |                  |         |
+| 10.04  |        |        |              |                  |         |
+
+| 15.04  | Sprint7|Review  | Testing      |                  |         | 
+| 17.04  |        |        |              |                  |         |
+
+| 22.04  |        |        |              |                  |         |
+| 24.04  |        |        |              |                  |         |
+
+| 29.04  | Sprint8|Review  | Documentation|                  |         | 
+| 01.05  |        |        |              |                  |         |
+
+| 06.05  |        |        |              |                  |         |
+| 08.05  |        | Review |              |                  |         |
+
 
 ---
-
-### Sprint Review and Planning Meetings
 
 **Note**: All team members must participate during the review sessions.
 
