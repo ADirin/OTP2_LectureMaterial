@@ -122,7 +122,7 @@ Attendance during contact hours is **mandatory** unless otherwise specified.
 
 ### Schedule for both group
 
-| Date   | Sprint  | Report  | Lecture        | Assignments/Exam | Comment |
+| Date   | Sprint  | Report  | Lecture        | [presentation](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Lecture_Presentation/Presentation%20Schedule%20_English.md)/[Esitys](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Lecture_Presentation/Presentation%20Schedule_Finnish.md) | Comment |
 |--------|--------|--------|----------------|------------------|---------|
 | 18.03  | Sprint 5 |        | Introduction  |                  |         | 
 | 20.03  |        |        | Localization  |                  |         |
